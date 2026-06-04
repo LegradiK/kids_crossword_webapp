@@ -1,0 +1,1290 @@
+{
+  "metadata": {
+    "title": "KS1 Crossword Picture Bank",
+    "description": "KS1-appropriate words with clear, distinct emoji picture clues",
+    "total_words": 334,
+    "categories": 22
+  },
+  "categories": {
+    "animals": {
+      "label": "Animals",
+      "words": [
+        {
+          "word": "CAT",
+          "clue": "🐱"
+        },
+        {
+          "word": "DOG",
+          "clue": "🐶"
+        },
+        {
+          "word": "COW",
+          "clue": "🐮"
+        },
+        {
+          "word": "PIG",
+          "clue": "🐷"
+        },
+        {
+          "word": "FOX",
+          "clue": "🦊"
+        },
+        {
+          "word": "FROG",
+          "clue": "🐸"
+        },
+        {
+          "word": "BEAR",
+          "clue": "🐻"
+        },
+        {
+          "word": "DEER",
+          "clue": "🦌"
+        },
+        {
+          "word": "WOLF",
+          "clue": "🐺"
+        },
+        {
+          "word": "RABBIT",
+          "clue": "🐰"
+        },
+        {
+          "word": "HORSE",
+          "clue": "🐴"
+        },
+        {
+          "word": "SHEEP",
+          "clue": "🐑"
+        },
+        {
+          "word": "SNAKE",
+          "clue": "🐍"
+        },
+        {
+          "word": "TIGER",
+          "clue": "🐯"
+        },
+        {
+          "word": "LION",
+          "clue": "🦁"
+        },
+        {
+          "word": "ELEPHANT",
+          "clue": "🐘"
+        },
+        {
+          "word": "MONKEY",
+          "clue": "🐵"
+        },
+        {
+          "word": "ZEBRA",
+          "clue": "🦓"
+        },
+        {
+          "word": "GIRAFFE",
+          "clue": "🦒"
+        },
+        {
+          "word": "PANDA",
+          "clue": "🐼"
+        },
+        {
+          "word": "CAMEL",
+          "clue": "🐪"
+        },
+        {
+          "word": "HIPPO",
+          "clue": "🦛"
+        },
+        {
+          "word": "RHINO",
+          "clue": "🦏"
+        },
+        {
+          "word": "GORILLA",
+          "clue": "🦍"
+        },
+        {
+          "word": "CROCODILE",
+          "clue": "🐊"
+        },
+        {
+          "word": "KANGAROO",
+          "clue": "🦘"
+        },
+        {
+          "word": "OTTER",
+          "clue": "🦦"
+        },
+        {
+          "word": "BAT",
+          "clue": "🦇"
+        }
+      ]
+    },
+    "pets_and_farm": {
+      "label": "Pets & farm",
+      "words": [
+        {
+          "word": "CAT",
+          "clue": "🐱"
+        },
+        {
+          "word": "DOG",
+          "clue": "🐕"
+        },
+        {
+          "word": "DUCK",
+          "clue": "🦆"
+        },
+        {
+          "word": "GOAT",
+          "clue": "🐐"
+        },
+        {
+          "word": "HORSE",
+          "clue": "🐎"
+        },
+        {
+          "word": "SHEEP",
+          "clue": "🐏"
+        },
+        {
+          "word": "LAMB",
+          "clue": "🐑"
+        },
+        {
+          "word": "CHICK",
+          "clue": "🐣"
+        },
+        {
+          "word": "DONKEY",
+          "clue": "🫏"
+        },
+        {
+          "word": "RABBIT",
+          "clue": "🐇"
+        },
+        {
+          "word": "HAMSTER",
+          "clue": "🐹"
+        },
+        {
+          "word": "TORTOISE",
+          "clue": "🐢"
+        },
+        {
+          "word": "PARROT",
+          "clue": "🦜"
+        },
+        {
+          "word": "TURKEY",
+          "clue": "🦃"
+        }
+      ]
+    },
+    "sea_creatures": {
+      "label": "Sea creatures",
+      "words": [
+        {
+          "word": "CRAB",
+          "clue": "🦀"
+        },
+        {
+          "word": "SEAL",
+          "clue": "🦭"
+        },
+        {
+          "word": "WHALE",
+          "clue": "🐳"
+        },
+        {
+          "word": "SHARK",
+          "clue": "🦈"
+        },
+        {
+          "word": "SQUID",
+          "clue": "🦑"
+        },
+        {
+          "word": "PRAWN",
+          "clue": "🦐"
+        },
+        {
+          "word": "OCTOPUS",
+          "clue": "🐙"
+        },
+        {
+          "word": "DOLPHIN",
+          "clue": "🐬"
+        },
+        {
+          "word": "LOBSTER",
+          "clue": "🦞"
+        },
+        {
+          "word": "JELLYFISH",
+          "clue": "🪼"
+        },
+        {
+          "word": "TURTLE",
+          "clue": "🐢"
+        },
+        {
+          "word": "PENGUIN",
+          "clue": "🐧"
+        }
+      ]
+    },
+    "birds_and_bugs": {
+      "label": "Birds & bugs",
+      "words": [
+        {
+          "word": "OWL",
+          "clue": "🦉"
+        },
+        {
+          "word": "DUCK",
+          "clue": "🦆"
+        },
+        {
+          "word": "SWAN",
+          "clue": "🦢"
+        },
+        {
+          "word": "BEE",
+          "clue": "🐝"
+        },
+        {
+          "word": "ANT",
+          "clue": "🐜"
+        },
+        {
+          "word": "FLY",
+          "clue": "🪰"
+        },
+        {
+          "word": "WORM",
+          "clue": "🪱"
+        },
+        {
+          "word": "SNAIL",
+          "clue": "🐌"
+        },
+        {
+          "word": "EAGLE",
+          "clue": "🦅"
+        },
+        {
+          "word": "BEETLE",
+          "clue": "🐞"
+        },
+        {
+          "word": "SPIDER",
+          "clue": "🕷️"
+        },
+        {
+          "word": "PARROT",
+          "clue": "🦜"
+        },
+        {
+          "word": "PENGUIN",
+          "clue": "🐧"
+        },
+        {
+          "word": "FLAMINGO",
+          "clue": "🦩"
+        },
+        {
+          "word": "BUTTERFLY",
+          "clue": "🦋"
+        },
+        {
+          "word": "LADYBIRD",
+          "clue": "🐞"
+        },
+        {
+          "word": "CATERPILLAR",
+          "clue": "🐛"
+        }
+      ]
+    },
+    "human_body": {
+      "label": "Human body",
+      "words": [
+        {
+          "word": "EAR",
+          "clue": "👂"
+        },
+        {
+          "word": "EYE",
+          "clue": "👁️"
+        },
+        {
+          "word": "LEG",
+          "clue": "🦵"
+        },
+        {
+          "word": "HAND",
+          "clue": "🖐️"
+        },
+        {
+          "word": "FOOT",
+          "clue": "🦶"
+        },
+        {
+          "word": "NOSE",
+          "clue": "👃"
+        },
+        {
+          "word": "THUMB",
+          "clue": "👍"
+        },
+        {
+          "word": "TEETH",
+          "clue": "🦷"
+        },
+        {
+          "word": "HEART",
+          "clue": "❤️"
+        },
+        {
+          "word": "BRAIN",
+          "clue": "🧠"
+        },
+        {
+          "word": "LUNG",
+          "clue": "🫁"
+        },
+        {
+          "word": "BONE",
+          "clue": "🦴"
+        },
+        {
+          "word": "LIP",
+          "clue": "👄"
+        },
+        {
+          "word": "TONGUE",
+          "clue": "👅"
+        }
+      ]
+    },
+    "food_and_drink": {
+      "label": "Food & drink",
+      "words": [
+        {
+          "word": "EGG",
+          "clue": "🥚"
+        },
+        {
+          "word": "PIE",
+          "clue": "🥧"
+        },
+        {
+          "word": "MILK",
+          "clue": "🥛"
+        },
+        {
+          "word": "RICE",
+          "clue": "🍚"
+        },
+        {
+          "word": "SOUP",
+          "clue": "🍲"
+        },
+        {
+          "word": "CAKE",
+          "clue": "🎂"
+        },
+        {
+          "word": "BREAD",
+          "clue": "🍞"
+        },
+        {
+          "word": "PIZZA",
+          "clue": "🍕"
+        },
+        {
+          "word": "CHIPS",
+          "clue": "🍟"
+        },
+        {
+          "word": "WATER",
+          "clue": "💧"
+        },
+        {
+          "word": "JUICE",
+          "clue": "🧃"
+        },
+        {
+          "word": "HONEY",
+          "clue": "🍯"
+        },
+        {
+          "word": "BUTTER",
+          "clue": "🧈"
+        },
+        {
+          "word": "CHEESE",
+          "clue": "🧀"
+        },
+        {
+          "word": "BISCUIT",
+          "clue": "🍪"
+        },
+        {
+          "word": "HOTDOG",
+          "clue": "🌭"
+        },
+        {
+          "word": "SANDWICH",
+          "clue": "🥪"
+        },
+        {
+          "word": "CHOCOLATE",
+          "clue": "🍫"
+        },
+        {
+          "word": "PASTA",
+          "clue": "🍝"
+        },
+        {
+          "word": "NOODLES",
+          "clue": "🍜"
+        }
+      ]
+    },
+    "fruit_and_veg": {
+      "label": "Fruit & veg",
+      "words": [
+        {
+          "word": "PEAR",
+          "clue": "🍐"
+        },
+        {
+          "word": "KIWI",
+          "clue": "🥝"
+        },
+        {
+          "word": "CORN",
+          "clue": "🌽"
+        },
+        {
+          "word": "APPLE",
+          "clue": "🍎"
+        },
+        {
+          "word": "GRAPE",
+          "clue": "🍇"
+        },
+        {
+          "word": "LEMON",
+          "clue": "🍋"
+        },
+        {
+          "word": "MANGO",
+          "clue": "🥭"
+        },
+        {
+          "word": "ONION",
+          "clue": "🧅"
+        },
+        {
+          "word": "CARROT",
+          "clue": "🥕"
+        },
+        {
+          "word": "POTATO",
+          "clue": "🥔"
+        },
+        {
+          "word": "TOMATO",
+          "clue": "🍅"
+        },
+        {
+          "word": "BANANA",
+          "clue": "🍌"
+        },
+        {
+          "word": "ORANGE",
+          "clue": "🍊"
+        },
+        {
+          "word": "CHERRY",
+          "clue": "🍒"
+        },
+        {
+          "word": "LETTUCE",
+          "clue": "🥬"
+        },
+        {
+          "word": "BROCCOLI",
+          "clue": "🥦"
+        },
+        {
+          "word": "PINEAPPLE",
+          "clue": "🍍"
+        },
+        {
+          "word": "STRAWBERRY",
+          "clue": "🍓"
+        },
+        {
+          "word": "BLUEBERRY",
+          "clue": "🫐"
+        },
+        {
+          "word": "CUCUMBER",
+          "clue": "🥒"
+        },
+        {
+          "word": "AVOCADO",
+          "clue": "🥑"
+        },
+        {
+          "word": "PEACH",
+          "clue": "🍑"
+        },
+        {
+          "word": "WATERMELON",
+          "clue": "🍉"
+        }
+      ]
+    },
+    "weather": {
+      "label": "Weather",
+      "words": [
+        {
+          "word": "SUN",
+          "clue": "☀️"
+        },
+        {
+          "word": "RAIN",
+          "clue": "🌧️"
+        },
+        {
+          "word": "SNOW",
+          "clue": "❄️"
+        },
+        {
+          "word": "WIND",
+          "clue": "💨"
+        },
+        {
+          "word": "CLOUD",
+          "clue": "☁️"
+        },
+        {
+          "word": "STORM",
+          "clue": "⛈️"
+        },
+        {
+          "word": "THUNDER",
+          "clue": "⚡"
+        },
+        {
+          "word": "RAINBOW",
+          "clue": "🌈"
+        },
+        {
+          "word": "LIGHTNING",
+          "clue": "🌩️"
+        },
+        {
+          "word": "HAIL",
+          "clue": "🌨️"
+        },
+        {
+          "word": "FOG",
+          "clue": "🌫️"
+        },
+        {
+          "word": "TORNADO",
+          "clue": "🌪️"
+        }
+      ]
+    },
+    "nature_and_plants": {
+      "label": "Nature & plants",
+      "words": [
+        {
+          "word": "TREE",
+          "clue": "🌲"
+        },
+        {
+          "word": "LEAF",
+          "clue": "🍃"
+        },
+        {
+          "word": "FLOWER",
+          "clue": "🌸"
+        },
+        {
+          "word": "MUSHROOM",
+          "clue": "🍄"
+        },
+        {
+          "word": "ROSE",
+          "clue": "🌹"
+        },
+        {
+          "word": "TULIP",
+          "clue": "🌷"
+        },
+        {
+          "word": "DAISY",
+          "clue": "🌼"
+        },
+        {
+          "word": "SUNFLOWER",
+          "clue": "🌻"
+        },
+        {
+          "word": "CHESTNUT",
+          "clue": "🌰"
+        },
+        {
+          "word": "FOREST",
+          "clue": "🌲🌲🌲"
+        }
+      ]
+    },
+    "space": {
+      "label": "Space",
+      "words": [
+        {
+          "word": "SUN",
+          "clue": "☀️"
+        },
+        {
+          "word": "MOON",
+          "clue": "🌙"
+        },
+        {
+          "word": "STAR",
+          "clue": "⭐"
+        },
+        {
+          "word": "EARTH",
+          "clue": "🌍"
+        },
+        {
+          "word": "COMET",
+          "clue": "☄️"
+        },
+        {
+          "word": "ROCKET",
+          "clue": "🚀"
+        },
+        {
+          "word": "SATURN",
+          "clue": "🪐"
+        },
+        {
+          "word": "METEOR",
+          "clue": "☄️"
+        },
+        {
+          "word": "ASTRONAUT",
+          "clue": "👨‍🚀"
+        },
+        {
+          "word": "TELESCOPE",
+          "clue": "🔭"
+        },
+        {
+          "word": "GALAXY",
+          "clue": "🌌"
+        },
+        {
+          "word": "ECLIPSE",
+          "clue": "🌑"
+        }
+      ]
+    },
+    "science": {
+      "label": "Science",
+      "words": [
+        {
+          "word": "FIRE",
+          "clue": "🔥"
+        },
+        {
+          "word": "ICE",
+          "clue": "🧊"
+        },
+        {
+          "word": "WATER",
+          "clue": "💧"
+        },
+        {
+          "word": "MAGNET",
+          "clue": "🧲"
+        },
+        {
+          "word": "MIRROR",
+          "clue": "🪞"
+        },
+        {
+          "word": "RAINBOW",
+          "clue": "🌈"
+        },
+        {
+          "word": "FOSSIL",
+          "clue": "🦴"
+        },
+        {
+          "word": "ROCK",
+          "clue": "🪨"
+        },
+        {
+          "word": "LIGHT",
+          "clue": "💡"
+        },
+        {
+          "word": "SOUND",
+          "clue": "🔊"
+        },
+        {
+          "word": "BATTERY",
+          "clue": "🔋"
+        }
+      ]
+    },
+    "geography": {
+      "label": "Geography",
+      "words": [
+        {
+          "word": "MAP",
+          "clue": "🗺️"
+        },
+        {
+          "word": "ISLAND",
+          "clue": "🏝️"
+        },
+        {
+          "word": "DESERT",
+          "clue": "🏜️"
+        },
+        {
+          "word": "FOREST",
+          "clue": "🌲🌲"
+        },
+        {
+          "word": "VOLCANO",
+          "clue": "🌋"
+        },
+        {
+          "word": "MOUNTAIN",
+          "clue": "🏔️"
+        },
+        {
+          "word": "BEACH",
+          "clue": "🏖️"
+        },
+        {
+          "word": "RIVER",
+          "clue": "🏞️"
+        },
+        {
+          "word": "OCEAN",
+          "clue": "🌊"
+        },
+        {
+          "word": "COMPASS",
+          "clue": "🧭"
+        },
+        {
+          "word": "RAINBOW",
+          "clue": "🌈"
+        }
+      ]
+    },
+    "places": {
+      "label": "Places",
+      "words": [
+        {
+          "word": "FARM",
+          "clue": "🚜"
+        },
+        {
+          "word": "PARK",
+          "clue": "🌳"
+        },
+        {
+          "word": "SHOP",
+          "clue": "🛍️"
+        },
+        {
+          "word": "BANK",
+          "clue": "🏦"
+        },
+        {
+          "word": "CAFE",
+          "clue": "☕"
+        },
+        {
+          "word": "CASTLE",
+          "clue": "🏰"
+        },
+        {
+          "word": "CHURCH",
+          "clue": "⛪"
+        },
+        {
+          "word": "SCHOOL",
+          "clue": "🏫"
+        },
+        {
+          "word": "LIBRARY",
+          "clue": "📚"
+        },
+        {
+          "word": "AIRPORT",
+          "clue": "✈️"
+        },
+        {
+          "word": "HOSPITAL",
+          "clue": "🏥"
+        },
+        {
+          "word": "ZOO",
+          "clue": "🦁"
+        },
+        {
+          "word": "CINEMA",
+          "clue": "🎬"
+        },
+        {
+          "word": "STADIUM",
+          "clue": "🏟️"
+        },
+        {
+          "word": "BEACH",
+          "clue": "🏖️"
+        }
+      ]
+    },
+    "transport": {
+      "label": "Transport",
+      "words": [
+        {
+          "word": "CAR",
+          "clue": "🚗"
+        },
+        {
+          "word": "BUS",
+          "clue": "🚌"
+        },
+        {
+          "word": "TAXI",
+          "clue": "🚕"
+        },
+        {
+          "word": "BOAT",
+          "clue": "⛵"
+        },
+        {
+          "word": "SHIP",
+          "clue": "🚢"
+        },
+        {
+          "word": "PLANE",
+          "clue": "✈️"
+        },
+        {
+          "word": "TRAIN",
+          "clue": "🚂"
+        },
+        {
+          "word": "ROCKET",
+          "clue": "🚀"
+        },
+        {
+          "word": "SCOOTER",
+          "clue": "🛴"
+        },
+        {
+          "word": "BICYCLE",
+          "clue": "🚲"
+        },
+        {
+          "word": "TRACTOR",
+          "clue": "🚜"
+        },
+        {
+          "word": "HELICOPTER",
+          "clue": "🚁"
+        },
+        {
+          "word": "AMBULANCE",
+          "clue": "🚑"
+        },
+        {
+          "word": "MOTORBIKE",
+          "clue": "🏍️"
+        },
+        {
+          "word": "LORRY",
+          "clue": "🚛"
+        }
+      ]
+    },
+    "school": {
+      "label": "School",
+      "words": [
+        {
+          "word": "PEN",
+          "clue": "🖊️"
+        },
+        {
+          "word": "BOOK",
+          "clue": "📖"
+        },
+        {
+          "word": "RULER",
+          "clue": "📏"
+        },
+        {
+          "word": "PAINT",
+          "clue": "🎨"
+        },
+        {
+          "word": "PENCIL",
+          "clue": "✏️"
+        },
+        {
+          "word": "CRAYON",
+          "clue": "🖍️"
+        },
+        {
+          "word": "SCISSORS",
+          "clue": "✂️"
+        },
+        {
+          "word": "TEACHER",
+          "clue": "🧑‍🏫"
+        },
+        {
+          "word": "BOOKS",
+          "clue": "📚"
+        },
+        {
+          "word": "LUNCHBOX",
+          "clue": "🍱"
+        }
+      ]
+    },
+    "colours": {
+      "label": "Colours",
+      "words": [
+        {
+          "word": "RED",
+          "clue": "🔴"
+        },
+        {
+          "word": "BLUE",
+          "clue": "🔵"
+        },
+        {
+          "word": "PINK",
+          "clue": "🩷"
+        },
+        {
+          "word": "GOLD",
+          "clue": "🥇"
+        },
+        {
+          "word": "GREEN",
+          "clue": "🟢"
+        },
+        {
+          "word": "BLACK",
+          "clue": "⚫"
+        },
+        {
+          "word": "WHITE",
+          "clue": "⚪"
+        },
+        {
+          "word": "BROWN",
+          "clue": "🟤"
+        },
+        {
+          "word": "ORANGE",
+          "clue": "🟠"
+        },
+        {
+          "word": "PURPLE",
+          "clue": "🟣"
+        },
+        {
+          "word": "YELLOW",
+          "clue": "🟡"
+        },
+        {
+          "word": "RAINBOW",
+          "clue": "🌈"
+        }
+      ]
+    },
+    "numbers_and_shapes": {
+      "label": "Numbers & shapes",
+      "words": [
+        {
+          "word": "ONE",
+          "clue": "1️⃣"
+        },
+        {
+          "word": "TWO",
+          "clue": "2️⃣"
+        },
+        {
+          "word": "THREE",
+          "clue": "3️⃣"
+        },
+        {
+          "word": "FOUR",
+          "clue": "4️⃣"
+        },
+        {
+          "word": "FIVE",
+          "clue": "5️⃣"
+        },
+        {
+          "word": "SIX",
+          "clue": "6️⃣"
+        },
+        {
+          "word": "SEVEN",
+          "clue": "7️⃣"
+        },
+        {
+          "word": "EIGHT",
+          "clue": "8️⃣"
+        },
+        {
+          "word": "NINE",
+          "clue": "9️⃣"
+        },
+        {
+          "word": "TEN",
+          "clue": "🔟"
+        },
+        {
+          "word": "ZERO",
+          "clue": "0️⃣"
+        },
+        {
+          "word": "CIRCLE",
+          "clue": "⭕"
+        },
+        {
+          "word": "SQUARE",
+          "clue": "🟥"
+        },
+        {
+          "word": "TRIANGLE",
+          "clue": "🔺"
+        },
+        {
+          "word": "STAR",
+          "clue": "⭐"
+        },
+        {
+          "word": "HEART",
+          "clue": "❤️"
+        },
+        {
+          "word": "CONE",
+          "clue": "🍦"
+        },
+        {
+          "word": "CUBE",
+          "clue": "🧊"
+        }
+      ]
+    },
+    "clothes": {
+      "label": "Clothes",
+      "words": [
+        {
+          "word": "CAP",
+          "clue": "🧢"
+        },
+        {
+          "word": "HAT",
+          "clue": "🎩"
+        },
+        {
+          "word": "BOOTS",
+          "clue": "👢"
+        },
+        {
+          "word": "SOCKS",
+          "clue": "🧦"
+        },
+        {
+          "word": "COAT",
+          "clue": "🧥"
+        },
+        {
+          "word": "JEANS",
+          "clue": "👖"
+        },
+        {
+          "word": "SKIRT",
+          "clue": "👗"
+        },
+        {
+          "word": "SHIRT",
+          "clue": "👕"
+        },
+        {
+          "word": "SCARF",
+          "clue": "🧣"
+        },
+        {
+          "word": "GLOVES",
+          "clue": "🧤"
+        },
+        {
+          "word": "SHOES",
+          "clue": "👟"
+        },
+        {
+          "word": "SHORTS",
+          "clue": "🩳"
+        },
+        {
+          "word": "DRESS",
+          "clue": "👗"
+        },
+        {
+          "word": "SWIMSUIT",
+          "clue": "🩱"
+        },
+        {
+          "word": "TRAINERS",
+          "clue": "👟"
+        },
+        {
+          "word": "TROUSERS",
+          "clue": "👖"
+        }
+      ]
+    },
+    "home_and_rooms": {
+      "label": "Home & rooms",
+      "words": [
+        {
+          "word": "BED",
+          "clue": "🛏️"
+        },
+        {
+          "word": "SOFA",
+          "clue": "🛋️"
+        },
+        {
+          "word": "DOOR",
+          "clue": "🚪"
+        },
+        {
+          "word": "BATH",
+          "clue": "🛁"
+        },
+        {
+          "word": "TABLE",
+          "clue": "🪑"
+        },
+        {
+          "word": "LAMP",
+          "clue": "💡"
+        },
+        {
+          "word": "CLOCK",
+          "clue": "🕐"
+        },
+        {
+          "word": "WINDOW",
+          "clue": "🪟"
+        },
+        {
+          "word": "TOILET",
+          "clue": "🚽"
+        },
+        {
+          "word": "PHONE",
+          "clue": "📱"
+        }
+      ]
+    },
+    "sports_and_games": {
+      "label": "Sports & games",
+      "words": [
+        {
+          "word": "GOLF",
+          "clue": "⛳"
+        },
+        {
+          "word": "BALL",
+          "clue": "⚽"
+        },
+        {
+          "word": "RUGBY",
+          "clue": "🏉"
+        },
+        {
+          "word": "CHESS",
+          "clue": "♟️"
+        },
+        {
+          "word": "TENNIS",
+          "clue": "🎾"
+        },
+        {
+          "word": "BOXING",
+          "clue": "🥊"
+        },
+        {
+          "word": "CRICKET",
+          "clue": "🏏"
+        },
+        {
+          "word": "FOOTBALL",
+          "clue": "⚽"
+        },
+        {
+          "word": "SWIMMING",
+          "clue": "🏊"
+        },
+        {
+          "word": "CYCLING",
+          "clue": "🚴"
+        },
+        {
+          "word": "ARCHERY",
+          "clue": "🏹"
+        },
+        {
+          "word": "KARATE",
+          "clue": "🥋"
+        },
+        {
+          "word": "BADMINTON",
+          "clue": "🏸"
+        },
+        {
+          "word": "BASKETBALL",
+          "clue": "🏀"
+        },
+        {
+          "word": "SKATEBOARD",
+          "clue": "🛹"
+        }
+      ]
+    }
+  }
+}

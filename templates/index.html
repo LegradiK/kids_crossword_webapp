@@ -13,9 +13,15 @@
   <p>Choose a topic and solve the puzzle!</p>
 </header>
 
+<div class="mode-toggle">
+  <button class="mode-btn {% if initial_mode == 'beginner' %}active{% endif %}" id="btn-beginner" onclick="setMode('beginner')">🖼 Beginner</button>
+  <button class="mode-btn {% if initial_mode == 'advanced' %}active{% endif %}" id="btn-advanced" onclick="setMode('advanced')">📚 Advanced</button>
+</div>
+
 <div class="controls">
   <select id="topic-sel">
-    {% for t in topics %}
+    {% set topic_list = beginner_topics if initial_mode == 'beginner' else topics %}
+    {% for t in topic_list %}
     <option value="{{ t }}">{{ t }}</option>
     {% endfor %}
   </select>
@@ -42,24 +48,56 @@
   <div class="clues-panel" id="clues"></div>
   <div class="grid-wrap">
     <table id="cw"></table>
-  </div>  
+  </div>
 </div>
 
+<footer>
+  Crossword Puzzles for Children &copy;2026 by
+  <a href="https://github.com/LegradiK" target="_blank" rel="noopener noreferrer">LegradiK</a>
+  All rights reserved.
+</footer>
+
 <script>
+const ADVANCED_TOPICS = {{ topics | tojson }};
+const BEGINNER_TOPICS = {{ beginner_topics | tojson }};
+
 let puzzle = null;
 let activeKey = null;
 let checks = 0;
 let solved = new Set();
+let currentMode = {{ initial_mode | tojson }};
+
+function setMode(mode) {
+  currentMode = mode;
+  document.getElementById('btn-advanced').classList.toggle('active', mode === 'advanced');
+  document.getElementById('btn-beginner').classList.toggle('active', mode === 'beginner');
+
+  const topics = mode === 'beginner' ? BEGINNER_TOPICS : ADVANCED_TOPICS;
+  const sel = document.getElementById('topic-sel');
+  sel.innerHTML = topics.map(t => `<option value="${t}">${t}</option>`).join('');
+
+  if (!topics.length) {
+    document.getElementById('loading').textContent = 'No topics available for this mode yet.';
+    document.getElementById('loading').style.display = 'block';
+    document.getElementById('main').style.display = 'none';
+    return;
+  }
+  loadPuzzle();
+}
 
 async function loadPuzzle() {
+  const sel = document.getElementById('topic-sel');
+  if (!sel.options.length) return;
+
+  document.getElementById('loading').textContent = 'Loading puzzle…';
   document.getElementById('loading').style.display = 'block';
   document.getElementById('main').style.display = 'none';
   document.getElementById('win-banner').style.display = 'none';
   solved.clear(); checks = 0;
   updateScore(0, 0);
 
-  const topic = document.getElementById('topic-sel').value;
-  const res = await fetch(`/api/puzzle?topic=${encodeURIComponent(topic)}`);
+  const topic = sel.value;
+  const res = await fetch(`/api/puzzle?topic=${encodeURIComponent(topic)}&mode=${currentMode}`);
   puzzle = await res.json();
 
   document.getElementById('loading').style.display = 'none';
@@ -201,28 +239,38 @@ function highlightWord(cl) {
 function renderClues() {
   const panel = document.getElementById('clues');
   panel.innerHTML = '';
+  const isBeginner = puzzle.mode === 'beginner';
+
   [['Across', puzzle.across], ['Down', puzzle.down]].forEach(([label, list]) => {
     const col = document.createElement('div');
-    col.className = 'clues-col';
+    col.className = isBeginner ? 'clues-col beginner' : 'clues-col';
     const t = document.createElement('div');
     t.className = 'clue-section-title'; t.textContent = label;
     col.appendChild(t);
+
     list.forEach(cl => {
       const key = clueKey(cl);
       const d = document.createElement('div');
-      d.className = 'clue-item'; d.id = `clue-${key}`;
-      d.innerHTML = `<span class="clue-num">${cl.num}</span>
-        <div class="clue-body">
-          <div class="clue-txt">${cl.clue}</div>
-          <div class="clue-len">${cl.length} letters</div>
-        </div>`;
+      d.className = isBeginner ? 'clue-item beginner' : 'clue-item';
+      d.id = `clue-${key}`;
+
+      if (isBeginner) {
+        d.innerHTML = `<span class="clue-num">${cl.num}</span>
+          <span class="clue-emoji">${cl.clue}</span>`;
+      } else {
+        d.innerHTML = `<span class="clue-num">${cl.num}</span>
+          <div class="clue-body">
+            <div class="clue-txt">${cl.clue}</div>
+            <div class="clue-len">${cl.length} letters</div>
+          </div>`;
+      }
+
       d.onclick = () => selectClue(key);
       col.appendChild(d);
     });
     panel.appendChild(col);
   });
 }
-
 
 function checkAll() {
   checks++;

@@ -17,21 +17,46 @@ body {
 /* ── Header ─────────────────────────────────────────────────────────────── */
 header {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin: -1.5rem -1rem 1.5rem;
+  padding: 1.5rem 1rem 1.25rem;
+  background: #4a91a8;
 }
 
 header h1 {
   font-family: 'Fredoka One', cursive;
   font-size: 2.2rem;
-  color: #1a1a1a;
+  color: #fff;
   letter-spacing: .02em;
 }
 
 header p {
   font-size: .95rem;
-  color: #666;
+  color: rgba(255, 255, 255, .85);
   margin-top: .25rem;
 }
+
+/* ── Mode toggle ─────────────────────────────────────────────────────────── */
+.mode-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.mode-btn {
+  font-family: 'Nunito', sans-serif;
+  font-size: .95rem;
+  font-weight: 700;
+  padding: .5rem 1.6rem;
+  border: 2px solid #4a91a8;
+  background: #fff;
+  color: #4a91a8;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+
+.mode-btn:first-child { border-radius: 10px 0 0 10px; border-right: none; }
+.mode-btn:last-child  { border-radius: 0 10px 10px 0; }
+.mode-btn.active      { background: #4a91a8; color: #fff; }
 
 /* ── Controls bar ────────────────────────────────────────────────────────── */
 .controls {
@@ -233,6 +258,23 @@ table#cw td.err   { background: #ffcdd2; }
   margin-top: 2px;
 }
 
+/* ── Beginner image clues ────────────────────────────────────────────────── */
+.clues-col.beginner { width: 150px; }
+
+.clue-item.beginner {
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 8px;
+  gap: 5px;
+}
+
+.clue-emoji {
+  font-size: 52px;
+  line-height: 1;
+  display: block;
+  text-align: center;
+}
+
 /* ── Win banner ──────────────────────────────────────────────────────────── */
 .win-banner {
   display: none;
@@ -264,4 +306,22 @@ table#cw td.err   { background: #ffcdd2; }
   font-size: 1.1rem;
   color: #888;
   font-weight: 600;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+footer {
+  text-align: center;
+  margin: 1.5rem -1rem -1.5rem;
+  padding: .9rem 1rem;
+  background: #4a91a8;
+  font-family: 'Nunito', sans-serif;
+  font-size: .85rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, .9);
+}
+
+footer a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
 }
