@@ -190,6 +190,7 @@ table#cw td.black { background: #1a1a1a; border-color: #1a1a1a; }
 table#cw td.hi    { background: #d0e8fc; }
 table#cw td.ok    { background: #c8e6c9; }
 table#cw td.err   { background: #ffcdd2; }
+table#cw td:focus-within { box-shadow: inset 0 0 0 3px #1a1a1a; z-index: 1; }
 
 .cnum {
   position: absolute;
