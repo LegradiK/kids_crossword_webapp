@@ -38,7 +38,7 @@ Check, Reveal, and Clear work the same way in both modes. The active cell is hig
 kids_crossword_webapp/
 ├── main.py              # Flask app — routes and word-bank loading
 ├── game_logic.py        # Crossword generation algorithm
-├── data.env             # Environment variables (keys, file paths, port)
+├── data.env             # Environment variables (keys, file paths, port - not committed)
 ├── static/
 │   ├── style.css        # All styling
 │   ├── words.json       # Advanced mode word bank
@@ -55,7 +55,7 @@ kids_crossword_webapp/
 ### 1. Clone and enter the project
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/LegradiK/kids_crossword_webapp.git
 cd kids_crossword_webapp
 ```
 
