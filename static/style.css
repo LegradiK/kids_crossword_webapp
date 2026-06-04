@@ -12,6 +12,8 @@ body {
   min-height: 100vh;
   padding: 1.5rem 1rem;
   color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ── Header ─────────────────────────────────────────────────────────────── */
@@ -20,7 +22,28 @@ header {
   margin: -1.5rem -1rem 1.5rem;
   padding: 1.5rem 1rem 1.25rem;
   background: #4a91a8;
+  position: relative;
 }
+
+.btn-about {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,.2);
+  border: 2px solid rgba(255,255,255,.6);
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: .5rem 1.2rem;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: background .15s;
+  margin-right: 2rem;
+}
+
+.btn-about:hover { background: rgba(255,255,255,.35); }
 
 header h1 {
   font-family: 'Fredoka One', cursive;
@@ -143,6 +166,7 @@ header p {
 /* ── Grid ────────────────────────────────────────────────────────────────── */
 .grid-wrap {
   overflow: auto;
+  margin-bottom: 1rem;
 }
 
 table#cw {
@@ -201,6 +225,7 @@ table#cw td.err   { background: #ffcdd2; }
   display: flex;
   gap: 1rem;
   align-items: flex-start;
+  margin-bottom: 1rem;
 }
 
 .clues-col {
@@ -308,10 +333,79 @@ table#cw td.err   { background: #ffcdd2; }
   font-weight: 600;
 }
 
+/* ── About modal ─────────────────────────────────────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 480px;
+  width: 90%;
+  position: relative;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: .75rem;
+  right: .9rem;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #aaa;
+  line-height: 1;
+}
+
+.modal-close:hover { color: #333; }
+
+.modal-card h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.6rem;
+  color: #4a91a8;
+  margin-bottom: 1rem;
+}
+
+.modal-card h3 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.1rem;
+  color: #1a1a1a;
+  margin: 1.1rem 0 .4rem;
+}
+
+.modal-card p, .modal-card li {
+  font-size: .88rem;
+  line-height: 1.55;
+  color: #444;
+}
+
+.modal-card ul {
+  padding-left: 1.2rem;
+  margin: .2rem 0 .5rem;
+}
+
+.modal-card ul li { margin-bottom: .3rem; }
+
+.modal-divider {
+  border: none;
+  border-top: 1.5px solid #e0ddd6;
+  margin: 1.1rem 0;
+}
+
 /* ── Footer ──────────────────────────────────────────────────────────────── */
 footer {
   text-align: center;
-  margin: 1.5rem -1rem -1.5rem;
+  margin: auto -1rem -1.5rem;
   padding: .9rem 1rem;
   background: #4a91a8;
   font-family: 'Nunito', sans-serif;

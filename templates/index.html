@@ -3,15 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KS1 Crossword</title>
+<title>Letter Quest</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
 <header>
-  <h1>🔤 KS1 Crossword</h1>
-  <p>Choose a topic and solve the puzzle!</p>
+  <h1>🔤 Letter Quest</h1>
+  <p>Pick a difficulty, pick a topic, then solve the puzzle!</p>
+  <button class="btn-about" onclick="document.getElementById('about-modal').style.display='flex'">About</button>
 </header>
+
+<div id="about-modal" class="modal-overlay" style="display:none" onclick="closeAbout(event)">
+  <div class="modal-card">
+    <button class="modal-close" onclick="document.getElementById('about-modal').style.display='none'">✕</button>
+    <h2>How to Play</h2>
+
+    <h3>🖼 Beginner Mode</h3>
+    <p>Look at the picture clues on the side. Each picture is a word — can you spell it?</p>
+    <ul>
+      <li>Find the number on the grid that matches the picture</li>
+      <li>Click that square and type the letters to spell the word</li>
+      <li>Words go <strong>Across →</strong> or <strong>Down ↓</strong></li>
+      <li>Press <strong>✅ Check</strong> to see if you got it right</li>
+    </ul>
+
+    <hr class="modal-divider">
+
+    <h3>📚 Advanced Mode</h3>
+    <p>Read the clues on the side and work out the answer.</p>
+    <ul>
+      <li>Find the matching number on the grid</li>
+      <li>Click and type your answer letter by letter</li>
+      <li>Words go <strong>Across →</strong> or <strong>Down ↓</strong></li>
+      <li>The number of letters is shown under each clue</li>
+    </ul>
+
+    <hr class="modal-divider">
+
+    <h3>🎮 Buttons</h3>
+    <ul>
+      <li><strong>🎲 New puzzle</strong> — load a fresh puzzle</li>
+      <li><strong>✅ Check</strong> — mark right and wrong letters</li>
+      <li><strong>👁 Reveal</strong> — show all the answers</li>
+      <li><strong>🗑 Clear</strong> — wipe the grid and start again</li>
+    </ul>
+  </div>
+</div>
 
 <div class="mode-toggle">
   <button class="mode-btn {% if initial_mode == 'beginner' %}active{% endif %}" id="btn-beginner" onclick="setMode('beginner')">🖼 Beginner</button>
@@ -52,7 +90,7 @@
 </div>
 
 <footer>
-  Crossword Puzzles for Children &copy;2026 by
+  Letter Quest - Crossword Puzzles for Kids &copy;2026 by
   <a href="https://github.com/LegradiK" target="_blank" rel="noopener noreferrer">LegradiK</a>
   All rights reserved.
 </footer>
@@ -336,6 +374,11 @@ function showWin() {
     `You solved all ${solved.size} words in ${checks} check${checks!==1?'s':''}!`;
   banner.style.display = 'block';
   banner.scrollIntoView({behavior:'smooth', block:'center'});
+}
+
+function closeAbout(e) {
+  if (e.target === document.getElementById('about-modal'))
+    document.getElementById('about-modal').style.display = 'none';
 }
 
 document.getElementById('topic-sel').addEventListener('change', loadPuzzle);
