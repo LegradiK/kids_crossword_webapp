@@ -9,6 +9,26 @@ Check, Reveal, and Clear work the same way in both modes. The active cell is hig
 
 ---
 
+## Screenshots
+
+**How to screen** — explains how to play the game
+
+![How to mode](screenshots/how-to.png)
+
+**Beginner mode** — emoji picture clues
+
+![Beginner mode](screenshots/beginner-animal.png)
+
+**Reveal mode** — when answers are revealed by clicking 'reveal'
+
+![Reveal mode](screenshots/reveal.png)
+
+**Advanced mode** — text clues with letter count
+
+![Advanced mode](screenshots/advanced-colors.png)
+
+---
+
 ## Features
 
 - Procedurally generated crossword grid — a fresh layout every time
@@ -45,6 +65,7 @@ kids_crossword_webapp/
 │   └── pictures.json    # Beginner mode word bank (emoji clues)
 ├── templates/
 │   └── index.html       # Single-page app template + JS
+├── screenshots/         # README screenshots
 └── venv/                # Python virtual environment (not committed)
 ```
 
