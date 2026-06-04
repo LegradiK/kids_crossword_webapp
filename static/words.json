@@ -1,0 +1,2816 @@
+{
+  "metadata": {
+    "title": "KS1 Crossword Word Bank",
+    "description": "KS1-appropriate words organised by topic category",
+    "total_words": 674,
+    "categories": 22
+  },
+  "categories": {
+    "animals": {
+      "label": "Animals",
+      "words": [
+        {
+          "word": "CAT",
+          "clue": "It meows and purrs"
+        },
+        {
+          "word": "DOG",
+          "clue": "Barks and fetches"
+        },
+        {
+          "word": "COW",
+          "clue": "Says moo, gives milk"
+        },
+        {
+          "word": "PIG",
+          "clue": "Rolls in mud, says oink"
+        },
+        {
+          "word": "HEN",
+          "clue": "Female chicken"
+        },
+        {
+          "word": "FOX",
+          "clue": "Clever orange wild animal"
+        },
+        {
+          "word": "RAT",
+          "clue": "Small rodent with a long tail"
+        },
+        {
+          "word": "BAT",
+          "clue": "Flying mammal that sleeps upside down"
+        },
+        {
+          "word": "YAK",
+          "clue": "Shaggy ox from the mountains"
+        },
+        {
+          "word": "EMU",
+          "clue": "Large Australian bird that cannot fly"
+        },
+        {
+          "word": "GNU",
+          "clue": "African animal also called a wildebeest"
+        },
+        {
+          "word": "FROG",
+          "clue": "Jumps and goes ribbit"
+        },
+        {
+          "word": "BEAR",
+          "clue": "Big furry animal, loves honey"
+        },
+        {
+          "word": "DEER",
+          "clue": "Graceful animal with antlers"
+        },
+        {
+          "word": "WOLF",
+          "clue": "Wild animal that howls"
+        },
+        {
+          "word": "HARE",
+          "clue": "Fast animal like a big rabbit"
+        },
+        {
+          "word": "MOLE",
+          "clue": "Digs tunnels underground"
+        },
+        {
+          "word": "TOAD",
+          "clue": "Like a frog but with bumpier skin"
+        },
+        {
+          "word": "NEWT",
+          "clue": "Small lizard-like amphibian"
+        },
+        {
+          "word": "VOLE",
+          "clue": "Tiny furry rodent near rivers"
+        },
+        {
+          "word": "LYNX",
+          "clue": "Wild cat with tufted ears"
+        },
+        {
+          "word": "BOAR",
+          "clue": "Wild pig found in forests"
+        },
+        {
+          "word": "OTTER",
+          "clue": "Swims in rivers, loves fish"
+        },
+        {
+          "word": "BADGER",
+          "clue": "Black and white stripy animal"
+        },
+        {
+          "word": "RABBIT",
+          "clue": "Hops and has long ears"
+        },
+        {
+          "word": "HORSE",
+          "clue": "You can ride this animal"
+        },
+        {
+          "word": "SHEEP",
+          "clue": "Says baa, gives wool"
+        },
+        {
+          "word": "SNAKE",
+          "clue": "Slithers with no legs"
+        },
+        {
+          "word": "TIGER",
+          "clue": "Orange cat with black stripes"
+        },
+        {
+          "word": "LION",
+          "clue": "King of the jungle"
+        },
+        {
+          "word": "ELEPHANT",
+          "clue": "Biggest land animal, has a trunk"
+        },
+        {
+          "word": "MONKEY",
+          "clue": "Swings in trees, loves bananas"
+        },
+        {
+          "word": "ZEBRA",
+          "clue": "Horse with black and white stripes"
+        },
+        {
+          "word": "GIRAFFE",
+          "clue": "Very long neck animal"
+        },
+        {
+          "word": "PANDA",
+          "clue": "Black and white bear from China"
+        },
+        {
+          "word": "CAMEL",
+          "clue": "Desert animal with one or two humps"
+        },
+        {
+          "word": "HIPPO",
+          "clue": "Large animal that lives near rivers in Africa"
+        },
+        {
+          "word": "RHINO",
+          "clue": "Large animal with a horn on its nose"
+        },
+        {
+          "word": "GORILLA",
+          "clue": "Largest type of ape"
+        },
+        {
+          "word": "CHEETAH",
+          "clue": "Fastest land animal, has spots"
+        }
+      ]
+    },
+    "pets_and_farm": {
+      "label": "Pets & farm",
+      "words": [
+        {
+          "word": "CAT",
+          "clue": "Purrs and chases mice"
+        },
+        {
+          "word": "DOG",
+          "clue": "Barks and loves walks"
+        },
+        {
+          "word": "FISH",
+          "clue": "Swims in a tank at home"
+        },
+        {
+          "word": "BIRD",
+          "clue": "Sings in a cage"
+        },
+        {
+          "word": "COW",
+          "clue": "Gives us milk on the farm"
+        },
+        {
+          "word": "PIG",
+          "clue": "Oinks on the farm"
+        },
+        {
+          "word": "HEN",
+          "clue": "Lays eggs on the farm"
+        },
+        {
+          "word": "GOAT",
+          "clue": "Eats almost anything on a farm"
+        },
+        {
+          "word": "DUCK",
+          "clue": "Quacks and swims in the pond"
+        },
+        {
+          "word": "HORSE",
+          "clue": "Farmers ride this animal"
+        },
+        {
+          "word": "SHEEP",
+          "clue": "Wool comes from this farm animal"
+        },
+        {
+          "word": "LAMB",
+          "clue": "Baby sheep"
+        },
+        {
+          "word": "CHICK",
+          "clue": "Baby chicken"
+        },
+        {
+          "word": "FOAL",
+          "clue": "Baby horse"
+        },
+        {
+          "word": "CALF",
+          "clue": "Baby cow"
+        },
+        {
+          "word": "DONKEY",
+          "clue": "Says hee-haw, carries loads"
+        },
+        {
+          "word": "RABBIT",
+          "clue": "Fluffy pet with long ears"
+        },
+        {
+          "word": "HAMSTER",
+          "clue": "Tiny furry pet that runs in a wheel"
+        },
+        {
+          "word": "GERBIL",
+          "clue": "Small furry pet like a mouse"
+        },
+        {
+          "word": "TORTOISE",
+          "clue": "Slow pet with a hard shell"
+        },
+        {
+          "word": "PARROT",
+          "clue": "Colourful pet bird that can talk"
+        },
+        {
+          "word": "PONY",
+          "clue": "A small horse"
+        },
+        {
+          "word": "ROOSTER",
+          "clue": "Male chicken, crows in the morning"
+        },
+        {
+          "word": "TURKEY",
+          "clue": "Large farm bird eaten at Christmas"
+        }
+      ]
+    },
+    "sea_creatures": {
+      "label": "Sea creatures",
+      "words": [
+        {
+          "word": "COD",
+          "clue": "Common white sea fish we eat"
+        },
+        {
+          "word": "EEL",
+          "clue": "Long snake-like fish"
+        },
+        {
+          "word": "FISH",
+          "clue": "Swims and has scales"
+        },
+        {
+          "word": "CRAB",
+          "clue": "Has claws, walks sideways"
+        },
+        {
+          "word": "SEAL",
+          "clue": "Loves fish, claps its flippers"
+        },
+        {
+          "word": "CLAM",
+          "clue": "Lives inside two shells"
+        },
+        {
+          "word": "ORCA",
+          "clue": "Black and white whale"
+        },
+        {
+          "word": "WHALE",
+          "clue": "Biggest animal in the sea"
+        },
+        {
+          "word": "SHARK",
+          "clue": "Has sharp teeth, big fin"
+        },
+        {
+          "word": "SQUID",
+          "clue": "Has eight arms and two tentacles"
+        },
+        {
+          "word": "PRAWN",
+          "clue": "Small pink sea creature we eat"
+        },
+        {
+          "word": "CORAL",
+          "clue": "Colourful reef structure in the sea"
+        },
+        {
+          "word": "TROUT",
+          "clue": "Fish found in rivers and lakes"
+        },
+        {
+          "word": "OCTOPUS",
+          "clue": "Eight arms, squirts ink"
+        },
+        {
+          "word": "DOLPHIN",
+          "clue": "Jumps and clicks, very clever"
+        },
+        {
+          "word": "LOBSTER",
+          "clue": "Red when cooked, has claws"
+        },
+        {
+          "word": "STARFISH",
+          "clue": "Five arms, lives on the seabed"
+        },
+        {
+          "word": "JELLYFISH",
+          "clue": "Wobbly, see-through, can sting"
+        },
+        {
+          "word": "TURTLE",
+          "clue": "Has a shell, swims in the sea"
+        },
+        {
+          "word": "SEAHORSE",
+          "clue": "Tiny horse-shaped fish"
+        },
+        {
+          "word": "WALRUS",
+          "clue": "Large sea mammal with long tusks"
+        },
+        {
+          "word": "PENGUIN",
+          "clue": "Black and white bird that swims"
+        },
+        {
+          "word": "SALMON",
+          "clue": "Pink fish that swims upstream to lay eggs"
+        }
+      ]
+    },
+    "birds_and_bugs": {
+      "label": "Birds & bugs",
+      "words": [
+        {
+          "word": "OWL",
+          "clue": "Wise bird that hoots at night"
+        },
+        {
+          "word": "HEN",
+          "clue": "Female chicken"
+        },
+        {
+          "word": "JAY",
+          "clue": "Colourful woodland bird"
+        },
+        {
+          "word": "TIT",
+          "clue": "Tiny garden bird, like a blue tit"
+        },
+        {
+          "word": "BEE",
+          "clue": "Makes honey, can sting"
+        },
+        {
+          "word": "ANT",
+          "clue": "Tiny insect that carries food"
+        },
+        {
+          "word": "FLY",
+          "clue": "Buzzes around food"
+        },
+        {
+          "word": "BUG",
+          "clue": "Small creepy crawly creature"
+        },
+        {
+          "word": "DUCK",
+          "clue": "Quacks and swims"
+        },
+        {
+          "word": "SWAN",
+          "clue": "Large white graceful bird"
+        },
+        {
+          "word": "CROW",
+          "clue": "Big black noisy bird"
+        },
+        {
+          "word": "WREN",
+          "clue": "Tiny brown garden bird"
+        },
+        {
+          "word": "MOTH",
+          "clue": "Like a butterfly, flies at night"
+        },
+        {
+          "word": "WASP",
+          "clue": "Yellow and black, can sting"
+        },
+        {
+          "word": "WORM",
+          "clue": "Wriggles in the soil"
+        },
+        {
+          "word": "SNAIL",
+          "clue": "Slow, carries its shell"
+        },
+        {
+          "word": "ROBIN",
+          "clue": "Red-breasted Christmas bird"
+        },
+        {
+          "word": "EAGLE",
+          "clue": "Large bird of prey"
+        },
+        {
+          "word": "BEETLE",
+          "clue": "Hard-shelled crawling insect"
+        },
+        {
+          "word": "SPIDER",
+          "clue": "Eight legs, spins a web"
+        },
+        {
+          "word": "PARROT",
+          "clue": "Colourful bird that can talk"
+        },
+        {
+          "word": "PENGUIN",
+          "clue": "Black and white bird that cannot fly"
+        },
+        {
+          "word": "FLAMINGO",
+          "clue": "Pink bird that stands on one leg"
+        },
+        {
+          "word": "BUTTERFLY",
+          "clue": "Beautiful insect with big wings"
+        },
+        {
+          "word": "DRAGONFLY",
+          "clue": "Insect with long wings that hovers over water"
+        },
+        {
+          "word": "GRASSHOPPER",
+          "clue": "Jumping insect that chirps in summer"
+        },
+        {
+          "word": "CATERPILLAR",
+          "clue": "Turns into a butterfly"
+        },
+        {
+          "word": "LADYBIRD",
+          "clue": "Red beetle with black spots"
+        },
+        {
+          "word": "WOODPECKER",
+          "clue": "Bird that pecks holes in trees"
+        }
+      ]
+    },
+    "human_body": {
+      "label": "Human body",
+      "words": [
+        {
+          "word": "EAR",
+          "clue": "You hear with this"
+        },
+        {
+          "word": "EYE",
+          "clue": "You see with this"
+        },
+        {
+          "word": "ARM",
+          "clue": "Connects your shoulder to your hand"
+        },
+        {
+          "word": "LEG",
+          "clue": "You walk and run with this"
+        },
+        {
+          "word": "TOE",
+          "clue": "On the end of your foot"
+        },
+        {
+          "word": "RIB",
+          "clue": "Bone that protects your chest"
+        },
+        {
+          "word": "LIP",
+          "clue": "Around your mouth"
+        },
+        {
+          "word": "JAW",
+          "clue": "The bone that moves when you chew"
+        },
+        {
+          "word": "HIP",
+          "clue": "Joint where your leg meets your body"
+        },
+        {
+          "word": "GUM",
+          "clue": "Pink flesh around your teeth"
+        },
+        {
+          "word": "CHIN",
+          "clue": "Below your mouth"
+        },
+        {
+          "word": "KNEE",
+          "clue": "Bends in the middle of your leg"
+        },
+        {
+          "word": "HAND",
+          "clue": "At the end of your arm"
+        },
+        {
+          "word": "FOOT",
+          "clue": "At the end of your leg"
+        },
+        {
+          "word": "NOSE",
+          "clue": "You smell and breathe with this"
+        },
+        {
+          "word": "BACK",
+          "clue": "The rear of your body"
+        },
+        {
+          "word": "NECK",
+          "clue": "Connects your head and body"
+        },
+        {
+          "word": "SHIN",
+          "clue": "Front of your lower leg"
+        },
+        {
+          "word": "PALM",
+          "clue": "Flat inside of your hand"
+        },
+        {
+          "word": "NAIL",
+          "clue": "Hard covering on the end of a finger"
+        },
+        {
+          "word": "ELBOW",
+          "clue": "Bends in the middle of your arm"
+        },
+        {
+          "word": "ANKLE",
+          "clue": "Connects your foot to your leg"
+        },
+        {
+          "word": "THUMB",
+          "clue": "The shortest, fattest finger"
+        },
+        {
+          "word": "CHEEK",
+          "clue": "Round part of your face"
+        },
+        {
+          "word": "TEETH",
+          "clue": "You chew food with these"
+        },
+        {
+          "word": "HEART",
+          "clue": "Pumps blood around your body"
+        },
+        {
+          "word": "BRAIN",
+          "clue": "Thinks inside your head"
+        },
+        {
+          "word": "LUNG",
+          "clue": "Helps you breathe"
+        },
+        {
+          "word": "SKIN",
+          "clue": "Covers your whole body"
+        },
+        {
+          "word": "SPINE",
+          "clue": "Backbone running down your back"
+        },
+        {
+          "word": "WRIST",
+          "clue": "Joins your hand to your arm"
+        },
+        {
+          "word": "SHOULDER",
+          "clue": "Where your arm joins your body"
+        },
+        {
+          "word": "FOREHEAD",
+          "clue": "Part of your face above your eyes"
+        },
+        {
+          "word": "EYEBROW",
+          "clue": "Hair above your eye"
+        },
+        {
+          "word": "STOMACH",
+          "clue": "Digests food inside your body"
+        },
+        {
+          "word": "FINGER",
+          "clue": "You have five on each hand"
+        }
+      ]
+    },
+    "food_and_drink": {
+      "label": "Food & drink",
+      "words": [
+        {
+          "word": "EGG",
+          "clue": "Chickens lay these, you can fry them"
+        },
+        {
+          "word": "PIE",
+          "clue": "Pastry with filling inside"
+        },
+        {
+          "word": "JAM",
+          "clue": "Sweet fruit spread on toast"
+        },
+        {
+          "word": "NUT",
+          "clue": "Hard-shelled snack that grows on trees"
+        },
+        {
+          "word": "BUN",
+          "clue": "Small soft bread roll"
+        },
+        {
+          "word": "HAM",
+          "clue": "Pink cooked meat from a pig"
+        },
+        {
+          "word": "MILK",
+          "clue": "White drink from cows"
+        },
+        {
+          "word": "RICE",
+          "clue": "Tiny white grains, eaten with curry"
+        },
+        {
+          "word": "SOUP",
+          "clue": "Warm liquid food in a bowl"
+        },
+        {
+          "word": "CAKE",
+          "clue": "Sweet baked treat with candles"
+        },
+        {
+          "word": "FISH",
+          "clue": "We eat this from the sea"
+        },
+        {
+          "word": "MEAT",
+          "clue": "Food that comes from animals"
+        },
+        {
+          "word": "BREAD",
+          "clue": "You make sandwiches with this"
+        },
+        {
+          "word": "PASTA",
+          "clue": "Italian food like spaghetti"
+        },
+        {
+          "word": "PIZZA",
+          "clue": "Round dough with tomato and cheese"
+        },
+        {
+          "word": "CHIPS",
+          "clue": "Fried potato sticks"
+        },
+        {
+          "word": "TOAST",
+          "clue": "Grilled bread, often with butter"
+        },
+        {
+          "word": "WATER",
+          "clue": "Clear drink, keeps you healthy"
+        },
+        {
+          "word": "JUICE",
+          "clue": "Drink squeezed from fruit"
+        },
+        {
+          "word": "HONEY",
+          "clue": "Sweet yellow food made by bees"
+        },
+        {
+          "word": "BUTTER",
+          "clue": "Yellow fat spread on bread"
+        },
+        {
+          "word": "CHEESE",
+          "clue": "Made from milk, often on pizza"
+        },
+        {
+          "word": "YOGURT",
+          "clue": "Creamy food made from milk"
+        },
+        {
+          "word": "CEREAL",
+          "clue": "Breakfast food eaten with milk"
+        },
+        {
+          "word": "BISCUIT",
+          "clue": "Crunchy sweet snack"
+        },
+        {
+          "word": "SAUSAGE",
+          "clue": "Meat in a tube shape, cooked in a pan"
+        },
+        {
+          "word": "NOODLES",
+          "clue": "Long thin strips eaten in Asian dishes"
+        },
+        {
+          "word": "PORRIDGE",
+          "clue": "Hot oat breakfast"
+        },
+        {
+          "word": "SANDWICH",
+          "clue": "Filling between two slices of bread"
+        },
+        {
+          "word": "CHOCOLATE",
+          "clue": "Sweet brown food made from cocoa"
+        }
+      ]
+    },
+    "fruit_and_veg": {
+      "label": "Fruit & veg",
+      "words": [
+        {
+          "word": "PEA",
+          "clue": "Tiny green vegetable in a pod"
+        },
+        {
+          "word": "YAM",
+          "clue": "Orange root vegetable"
+        },
+        {
+          "word": "FIG",
+          "clue": "Small sweet fruit with a purple skin"
+        },
+        {
+          "word": "PLUM",
+          "clue": "Small purple or red fruit"
+        },
+        {
+          "word": "PEAR",
+          "clue": "Green or yellow teardrop fruit"
+        },
+        {
+          "word": "KIWI",
+          "clue": "Furry brown fruit, green inside"
+        },
+        {
+          "word": "LIME",
+          "clue": "Small sour green citrus fruit"
+        },
+        {
+          "word": "CORN",
+          "clue": "Yellow vegetable on a cob"
+        },
+        {
+          "word": "BEAN",
+          "clue": "Long green vegetable in a pod"
+        },
+        {
+          "word": "LEEK",
+          "clue": "Long green and white vegetable"
+        },
+        {
+          "word": "PLUM",
+          "clue": "Purple fruit with a stone inside"
+        },
+        {
+          "word": "APPLE",
+          "clue": "Red or green crunchy fruit"
+        },
+        {
+          "word": "GRAPE",
+          "clue": "Tiny fruit that grows in bunches"
+        },
+        {
+          "word": "LEMON",
+          "clue": "Sour yellow citrus fruit"
+        },
+        {
+          "word": "MANGO",
+          "clue": "Sweet orange tropical fruit"
+        },
+        {
+          "word": "ONION",
+          "clue": "Makes your eyes water when cut"
+        },
+        {
+          "word": "CARROT",
+          "clue": "Orange vegetable rabbits love"
+        },
+        {
+          "word": "POTATO",
+          "clue": "You make chips and mash from this"
+        },
+        {
+          "word": "TOMATO",
+          "clue": "Red juicy fruit used in sauce"
+        },
+        {
+          "word": "BANANA",
+          "clue": "Long yellow fruit monkeys love"
+        },
+        {
+          "word": "ORANGE",
+          "clue": "Round juicy citrus fruit"
+        },
+        {
+          "word": "CHERRY",
+          "clue": "Tiny red fruit with a stalk"
+        },
+        {
+          "word": "TURNIP",
+          "clue": "Round white and purple root vegetable"
+        },
+        {
+          "word": "RADISH",
+          "clue": "Small red root vegetable with a peppery taste"
+        },
+        {
+          "word": "LETTUCE",
+          "clue": "Green leafy salad vegetable"
+        },
+        {
+          "word": "CABBAGE",
+          "clue": "Round leafy green vegetable"
+        },
+        {
+          "word": "SPINACH",
+          "clue": "Dark green leafy vegetable"
+        },
+        {
+          "word": "PEACH",
+          "clue": "Soft fuzzy fruit, orange and pink"
+        },
+        {
+          "word": "MELON",
+          "clue": "Large fruit with green skin and orange flesh"
+        },
+        {
+          "word": "BROCCOLI",
+          "clue": "Green vegetable that looks like tiny trees"
+        },
+        {
+          "word": "PINEAPPLE",
+          "clue": "Spiky tropical fruit, yellow inside"
+        },
+        {
+          "word": "STRAWBERRY",
+          "clue": "Red summer fruit with seeds outside"
+        },
+        {
+          "word": "BLUEBERRY",
+          "clue": "Tiny dark blue berry"
+        },
+        {
+          "word": "RASPBERRY",
+          "clue": "Small red soft berry"
+        },
+        {
+          "word": "CUCUMBER",
+          "clue": "Long green salad vegetable"
+        },
+        {
+          "word": "AVOCADO",
+          "clue": "Green pear-shaped fruit with creamy flesh"
+        },
+        {
+          "word": "COURGETTE",
+          "clue": "Long green vegetable like a cucumber"
+        },
+        {
+          "word": "AUBERGINE",
+          "clue": "Long purple vegetable"
+        }
+      ]
+    },
+    "weather": {
+      "label": "Weather",
+      "words": [
+        {
+          "word": "SUN",
+          "clue": "Hot bright star that gives us light"
+        },
+        {
+          "word": "FOG",
+          "clue": "Thick mist you cannot see through"
+        },
+        {
+          "word": "ICE",
+          "clue": "Frozen water on the ground"
+        },
+        {
+          "word": "DEW",
+          "clue": "Tiny water drops on grass in the morning"
+        },
+        {
+          "word": "RAIN",
+          "clue": "Water falling from clouds"
+        },
+        {
+          "word": "HAIL",
+          "clue": "Ice balls falling from the sky"
+        },
+        {
+          "word": "SNOW",
+          "clue": "White frozen flakes that fall in winter"
+        },
+        {
+          "word": "WIND",
+          "clue": "Moving air you can feel"
+        },
+        {
+          "word": "MIST",
+          "clue": "Light thin fog"
+        },
+        {
+          "word": "GALE",
+          "clue": "Very strong wind"
+        },
+        {
+          "word": "FROST",
+          "clue": "White ice that covers things in winter"
+        },
+        {
+          "word": "CLOUD",
+          "clue": "White or grey puff in the sky"
+        },
+        {
+          "word": "STORM",
+          "clue": "Very bad weather with wind and rain"
+        },
+        {
+          "word": "FLOOD",
+          "clue": "When lots of water covers the land"
+        },
+        {
+          "word": "SLEET",
+          "clue": "Rain and snow mixed together"
+        },
+        {
+          "word": "BREEZE",
+          "clue": "A gentle wind"
+        },
+        {
+          "word": "THUNDER",
+          "clue": "Loud boom after lightning"
+        },
+        {
+          "word": "RAINBOW",
+          "clue": "Seven colours in the sky after rain"
+        },
+        {
+          "word": "DRIZZLE",
+          "clue": "Very light, fine rain"
+        },
+        {
+          "word": "BLIZZARD",
+          "clue": "Heavy snowstorm with strong winds"
+        },
+        {
+          "word": "LIGHTNING",
+          "clue": "Bright flash in the sky during a storm"
+        },
+        {
+          "word": "SUNSHINE",
+          "clue": "Warm bright light from the sun"
+        },
+        {
+          "word": "HUMID",
+          "clue": "When the air feels warm and damp"
+        },
+        {
+          "word": "SEASON",
+          "clue": "Spring, summer, autumn or winter"
+        }
+      ]
+    },
+    "nature_and_plants": {
+      "label": "Nature & plants",
+      "words": [
+        {
+          "word": "OAK",
+          "clue": "Big tree that grows acorns"
+        },
+        {
+          "word": "ELM",
+          "clue": "Tall tree with bumpy bark"
+        },
+        {
+          "word": "ASH",
+          "clue": "Tall tree with black buds in winter"
+        },
+        {
+          "word": "YEW",
+          "clue": "Dark evergreen tree found in churchyards"
+        },
+        {
+          "word": "IVY",
+          "clue": "Climbing plant on walls"
+        },
+        {
+          "word": "FERN",
+          "clue": "Green leafy plant with no flowers"
+        },
+        {
+          "word": "MOSS",
+          "clue": "Soft green plant on rocks and trees"
+        },
+        {
+          "word": "SEED",
+          "clue": "Tiny thing that grows into a plant"
+        },
+        {
+          "word": "LEAF",
+          "clue": "Flat green part of a plant"
+        },
+        {
+          "word": "ROOT",
+          "clue": "Part of a plant under the ground"
+        },
+        {
+          "word": "STEM",
+          "clue": "Holds up a flower or plant"
+        },
+        {
+          "word": "BARK",
+          "clue": "Rough outside of a tree trunk"
+        },
+        {
+          "word": "SOIL",
+          "clue": "Dirt that plants grow in"
+        },
+        {
+          "word": "POND",
+          "clue": "Small area of still water"
+        },
+        {
+          "word": "TREE",
+          "clue": "Has trunk, branches and leaves"
+        },
+        {
+          "word": "TWIG",
+          "clue": "Small thin branch"
+        },
+        {
+          "word": "PINE",
+          "clue": "Evergreen tree with needles and cones"
+        },
+        {
+          "word": "GRASS",
+          "clue": "Green plant covering most gardens"
+        },
+        {
+          "word": "DAISY",
+          "clue": "Small white flower with yellow middle"
+        },
+        {
+          "word": "TULIP",
+          "clue": "Cup-shaped flower in spring"
+        },
+        {
+          "word": "ROSE",
+          "clue": "Flower with thorns, smells lovely"
+        },
+        {
+          "word": "ACORN",
+          "clue": "Seed of an oak tree"
+        },
+        {
+          "word": "BERRY",
+          "clue": "Small soft round fruit growing on a bush"
+        },
+        {
+          "word": "BRANCH",
+          "clue": "Grows out from a tree trunk"
+        },
+        {
+          "word": "FLOWER",
+          "clue": "Colourful part of a plant"
+        },
+        {
+          "word": "FOREST",
+          "clue": "Land covered with many trees"
+        },
+        {
+          "word": "PETAL",
+          "clue": "Colourful part of a flower"
+        },
+        {
+          "word": "NETTLE",
+          "clue": "Plant with stinging leaves"
+        },
+        {
+          "word": "THISTLE",
+          "clue": "Prickly plant, symbol of Scotland"
+        },
+        {
+          "word": "CONIFER",
+          "clue": "Evergreen tree that grows cones"
+        },
+        {
+          "word": "BLOSSOM",
+          "clue": "Flowers on a tree in spring"
+        },
+        {
+          "word": "SUNFLOWER",
+          "clue": "Tall plant with a big yellow flower"
+        },
+        {
+          "word": "DAFFODIL",
+          "clue": "Yellow trumpet-shaped spring flower"
+        },
+        {
+          "word": "BLUEBELL",
+          "clue": "Blue bell-shaped woodland flower"
+        },
+        {
+          "word": "MUSHROOM",
+          "clue": "Fungus that grows in damp places"
+        }
+      ]
+    },
+    "space": {
+      "label": "Space",
+      "words": [
+        {
+          "word": "SUN",
+          "clue": "The star at the centre of our solar system"
+        },
+        {
+          "word": "MOON",
+          "clue": "Orbits the Earth, shines at night"
+        },
+        {
+          "word": "STAR",
+          "clue": "Tiny dot of light in the night sky"
+        },
+        {
+          "word": "MARS",
+          "clue": "The red planet"
+        },
+        {
+          "word": "EARTH",
+          "clue": "The planet we live on"
+        },
+        {
+          "word": "ORBIT",
+          "clue": "The path a planet takes around the sun"
+        },
+        {
+          "word": "COMET",
+          "clue": "Ball of ice and rock with a bright tail"
+        },
+        {
+          "word": "VENUS",
+          "clue": "The hottest planet"
+        },
+        {
+          "word": "PLUTO",
+          "clue": "Tiny dwarf planet far from the sun"
+        },
+        {
+          "word": "SATURN",
+          "clue": "Planet with beautiful rings"
+        },
+        {
+          "word": "METEOR",
+          "clue": "Rock that falls through space"
+        },
+        {
+          "word": "PLANET",
+          "clue": "Large round object orbiting a star"
+        },
+        {
+          "word": "ROCKET",
+          "clue": "Spacecraft launched into space"
+        },
+        {
+          "word": "GALAXY",
+          "clue": "Huge group of billions of stars"
+        },
+        {
+          "word": "JUPITER",
+          "clue": "Biggest planet in our solar system"
+        },
+        {
+          "word": "NEPTUNE",
+          "clue": "Blue planet, furthest from the sun"
+        },
+        {
+          "word": "URANUS",
+          "clue": "Planet that spins on its side"
+        },
+        {
+          "word": "MERCURY",
+          "clue": "Closest planet to the sun"
+        },
+        {
+          "word": "ASTEROID",
+          "clue": "Rocky object orbiting the sun"
+        },
+        {
+          "word": "TELESCOPE",
+          "clue": "You look through this to see stars closer"
+        },
+        {
+          "word": "ASTRONAUT",
+          "clue": "Person who travels into space"
+        },
+        {
+          "word": "SATELLITE",
+          "clue": "Object that orbits a planet"
+        },
+        {
+          "word": "ECLIPSE",
+          "clue": "When the moon blocks the sun"
+        },
+        {
+          "word": "CRATER",
+          "clue": "Bowl-shaped hole made by a meteor"
+        },
+        {
+          "word": "GRAVITY",
+          "clue": "Force that pulls things towards a planet"
+        }
+      ]
+    },
+    "science": {
+      "label": "Science",
+      "words": [
+        {
+          "word": "AIR",
+          "clue": "Invisible gas we breathe"
+        },
+        {
+          "word": "ICE",
+          "clue": "Water that has frozen solid"
+        },
+        {
+          "word": "GAS",
+          "clue": "Like air, not solid or liquid"
+        },
+        {
+          "word": "OIL",
+          "clue": "Slippery liquid that does not mix with water"
+        },
+        {
+          "word": "HEAT",
+          "clue": "Makes things warm"
+        },
+        {
+          "word": "RUST",
+          "clue": "Red-brown coating on iron left in the rain"
+        },
+        {
+          "word": "ATOM",
+          "clue": "Tiny building block of everything"
+        },
+        {
+          "word": "STEM",
+          "clue": "Holds up a plant"
+        },
+        {
+          "word": "ROCK",
+          "clue": "Hard solid found in the ground"
+        },
+        {
+          "word": "SAND",
+          "clue": "Tiny grains found on beaches"
+        },
+        {
+          "word": "SOIL",
+          "clue": "Top layer of the earth plants grow in"
+        },
+        {
+          "word": "FORCE",
+          "clue": "A push or a pull"
+        },
+        {
+          "word": "LIGHT",
+          "clue": "Lets us see things"
+        },
+        {
+          "word": "SOUND",
+          "clue": "What you hear, travels as waves"
+        },
+        {
+          "word": "WATER",
+          "clue": "Liquid we drink and wash with"
+        },
+        {
+          "word": "MAGNET",
+          "clue": "Pulls iron and steel towards it"
+        },
+        {
+          "word": "MIRROR",
+          "clue": "Reflects light and shows your face"
+        },
+        {
+          "word": "SHADOW",
+          "clue": "Dark shape made when light is blocked"
+        },
+        {
+          "word": "ENERGY",
+          "clue": "Needed to do work or move"
+        },
+        {
+          "word": "GRAVITY",
+          "clue": "Force that pulls things down to Earth"
+        },
+        {
+          "word": "LIQUID",
+          "clue": "Flows freely, like water"
+        },
+        {
+          "word": "SOLID",
+          "clue": "Hard and keeps its shape"
+        },
+        {
+          "word": "FOSSIL",
+          "clue": "Old animal or plant preserved in rock"
+        },
+        {
+          "word": "RAINBOW",
+          "clue": "Seven colours formed when light splits"
+        },
+        {
+          "word": "FRICTION",
+          "clue": "Force that slows things down when surfaces rub"
+        },
+        {
+          "word": "VIBRATE",
+          "clue": "To shake quickly back and forth"
+        },
+        {
+          "word": "HABITAT",
+          "clue": "The natural home of an animal or plant"
+        },
+        {
+          "word": "CIRCUIT",
+          "clue": "Loop that electricity travels around"
+        },
+        {
+          "word": "MICROBE",
+          "clue": "Tiny living thing too small to see"
+        },
+        {
+          "word": "DIGESTION",
+          "clue": "How your body breaks down food"
+        },
+        {
+          "word": "EVAPORATE",
+          "clue": "When liquid turns into a gas"
+        }
+      ]
+    },
+    "geography": {
+      "label": "Geography",
+      "words": [
+        {
+          "word": "MAP",
+          "clue": "Shows you where places are"
+        },
+        {
+          "word": "SEA",
+          "clue": "Large area of salty water"
+        },
+        {
+          "word": "BAY",
+          "clue": "Curved part of the coast"
+        },
+        {
+          "word": "CAPE",
+          "clue": "Point of land sticking into the sea"
+        },
+        {
+          "word": "LAKE",
+          "clue": "Water surrounded by land"
+        },
+        {
+          "word": "HILL",
+          "clue": "Raised land, smaller than a mountain"
+        },
+        {
+          "word": "CAVE",
+          "clue": "Hollow space in a rock or hillside"
+        },
+        {
+          "word": "REEF",
+          "clue": "Ridge of rock or coral in the sea"
+        },
+        {
+          "word": "GULF",
+          "clue": "Large bay partly surrounded by land"
+        },
+        {
+          "word": "ISLE",
+          "clue": "A small island"
+        },
+        {
+          "word": "LAND",
+          "clue": "Solid ground, not sea"
+        },
+        {
+          "word": "TIDE",
+          "clue": "Sea moving in and out twice a day"
+        },
+        {
+          "word": "CLIFF",
+          "clue": "Steep rock face by the sea"
+        },
+        {
+          "word": "COAST",
+          "clue": "Where land meets the sea"
+        },
+        {
+          "word": "DELTA",
+          "clue": "Flat land where a river meets the sea"
+        },
+        {
+          "word": "NORTH",
+          "clue": "Direction towards the North Pole"
+        },
+        {
+          "word": "SOUTH",
+          "clue": "Direction towards the South Pole"
+        },
+        {
+          "word": "EAST",
+          "clue": "Direction where the sun rises"
+        },
+        {
+          "word": "WEST",
+          "clue": "Direction where the sun sets"
+        },
+        {
+          "word": "RIVER",
+          "clue": "Long flowing body of fresh water"
+        },
+        {
+          "word": "OCEAN",
+          "clue": "The biggest areas of sea on Earth"
+        },
+        {
+          "word": "ISLAND",
+          "clue": "Land completely surrounded by water"
+        },
+        {
+          "word": "VALLEY",
+          "clue": "Low land between hills or mountains"
+        },
+        {
+          "word": "DESERT",
+          "clue": "Very dry land with little rain"
+        },
+        {
+          "word": "FOREST",
+          "clue": "Large area of land covered by trees"
+        },
+        {
+          "word": "VOLCANO",
+          "clue": "Mountain that can erupt with lava"
+        },
+        {
+          "word": "MOUNTAIN",
+          "clue": "Very high piece of land"
+        },
+        {
+          "word": "EQUATOR",
+          "clue": "Imaginary line around the middle of the Earth"
+        },
+        {
+          "word": "CONTINENT",
+          "clue": "One of the seven great land masses"
+        },
+        {
+          "word": "PENINSULA",
+          "clue": "Land almost completely surrounded by sea"
+        },
+        {
+          "word": "WATERFALL",
+          "clue": "Water falling over a cliff into a river"
+        },
+        {
+          "word": "GLACIER",
+          "clue": "Slow-moving river of ice"
+        },
+        {
+          "word": "CANAL",
+          "clue": "Man-made waterway for boats"
+        },
+        {
+          "word": "ESTUARY",
+          "clue": "Wide mouth of a river where it meets the sea"
+        },
+        {
+          "word": "COMPASS",
+          "clue": "Tool that shows north, south, east and west"
+        }
+      ]
+    },
+    "places": {
+      "label": "Places",
+      "words": [
+        {
+          "word": "FARM",
+          "clue": "Where crops and animals are kept"
+        },
+        {
+          "word": "PARK",
+          "clue": "Open green space to play in"
+        },
+        {
+          "word": "SHOP",
+          "clue": "Where you buy things"
+        },
+        {
+          "word": "BANK",
+          "clue": "Where people keep their money"
+        },
+        {
+          "word": "CAFE",
+          "clue": "Place to buy drinks and snacks"
+        },
+        {
+          "word": "TOWN",
+          "clue": "Smaller than a city"
+        },
+        {
+          "word": "CITY",
+          "clue": "Large busy place with many buildings"
+        },
+        {
+          "word": "PORT",
+          "clue": "Where ships load and unload"
+        },
+        {
+          "word": "PIER",
+          "clue": "Long platform stretching into the sea"
+        },
+        {
+          "word": "ROAD",
+          "clue": "Cars and buses travel along this"
+        },
+        {
+          "word": "BEACH",
+          "clue": "Sandy or pebbly place by the sea"
+        },
+        {
+          "word": "BRIDGE",
+          "clue": "Goes over a river or road"
+        },
+        {
+          "word": "CASTLE",
+          "clue": "Old stone building with towers"
+        },
+        {
+          "word": "CHURCH",
+          "clue": "Building where Christians worship"
+        },
+        {
+          "word": "MARKET",
+          "clue": "Outdoor place with stalls selling things"
+        },
+        {
+          "word": "MUSEUM",
+          "clue": "Place to see old and interesting objects"
+        },
+        {
+          "word": "SCHOOL",
+          "clue": "Where children go to learn"
+        },
+        {
+          "word": "FOREST",
+          "clue": "Large area covered with trees"
+        },
+        {
+          "word": "GARDEN",
+          "clue": "Green outdoor space at a house"
+        },
+        {
+          "word": "VILLAGE",
+          "clue": "Small community of houses"
+        },
+        {
+          "word": "LIBRARY",
+          "clue": "Place to borrow books"
+        },
+        {
+          "word": "AIRPORT",
+          "clue": "Where planes take off and land"
+        },
+        {
+          "word": "HOSPITAL",
+          "clue": "Place to go when you are very ill"
+        },
+        {
+          "word": "STADIUM",
+          "clue": "Large outdoor arena for sports"
+        },
+        {
+          "word": "ZOO",
+          "clue": "Place where you can see wild animals"
+        },
+        {
+          "word": "CINEMA",
+          "clue": "Place to watch films on a big screen"
+        },
+        {
+          "word": "THEATRE",
+          "clue": "Place to watch plays and shows"
+        },
+        {
+          "word": "STATION",
+          "clue": "Where trains stop to let people on and off"
+        },
+        {
+          "word": "LIGHTHOUSE",
+          "clue": "Tall tower with a light to warn ships"
+        },
+        {
+          "word": "SUPERMARKET",
+          "clue": "Very large shop that sells all kinds of food"
+        }
+      ]
+    },
+    "transport": {
+      "label": "Transport",
+      "words": [
+        {
+          "word": "CAR",
+          "clue": "Four wheels, runs on roads"
+        },
+        {
+          "word": "BUS",
+          "clue": "Large vehicle carrying many passengers"
+        },
+        {
+          "word": "VAN",
+          "clue": "Like a car but bigger, for carrying things"
+        },
+        {
+          "word": "TAXI",
+          "clue": "Car you pay to take you places"
+        },
+        {
+          "word": "TRAM",
+          "clue": "Electric vehicle on rails in a city"
+        },
+        {
+          "word": "BOAT",
+          "clue": "Floats on water"
+        },
+        {
+          "word": "SHIP",
+          "clue": "Very large boat that crosses oceans"
+        },
+        {
+          "word": "FERRY",
+          "clue": "Boat that carries passengers and cars"
+        },
+        {
+          "word": "PLANE",
+          "clue": "Flies in the sky"
+        },
+        {
+          "word": "TRAIN",
+          "clue": "Runs on railway tracks"
+        },
+        {
+          "word": "LORRY",
+          "clue": "Very large truck for heavy loads"
+        },
+        {
+          "word": "BARGE",
+          "clue": "Flat boat used on canals"
+        },
+        {
+          "word": "ROCKET",
+          "clue": "Blasts into space"
+        },
+        {
+          "word": "SCOOTER",
+          "clue": "Two wheels, you kick to move"
+        },
+        {
+          "word": "BICYCLE",
+          "clue": "Two wheels, you pedal"
+        },
+        {
+          "word": "CANOE",
+          "clue": "Small narrow boat you paddle"
+        },
+        {
+          "word": "GLIDER",
+          "clue": "Plane with no engine, uses wind to fly"
+        },
+        {
+          "word": "TANKER",
+          "clue": "Large ship or lorry carrying liquid"
+        },
+        {
+          "word": "TRACTOR",
+          "clue": "Powerful farm vehicle"
+        },
+        {
+          "word": "SUBMARINE",
+          "clue": "Vessel that travels underwater"
+        },
+        {
+          "word": "HELICOPTER",
+          "clue": "Flies with spinning blades on top"
+        },
+        {
+          "word": "AMBULANCE",
+          "clue": "Emergency vehicle that takes ill people to hospital"
+        },
+        {
+          "word": "MOTORBIKE",
+          "clue": "Two-wheeled vehicle with an engine"
+        },
+        {
+          "word": "CABLE CAR",
+          "clue": "Hangs from a wire and goes up mountains"
+        }
+      ]
+    },
+    "school": {
+      "label": "School",
+      "words": [
+        {
+          "word": "PEN",
+          "clue": "You write with this"
+        },
+        {
+          "word": "MAP",
+          "clue": "Shows countries and places"
+        },
+        {
+          "word": "BOOK",
+          "clue": "Pages with words and pictures to read"
+        },
+        {
+          "word": "DESK",
+          "clue": "You sit at this to do your work"
+        },
+        {
+          "word": "GLUE",
+          "clue": "Sticky liquid for sticking"
+        },
+        {
+          "word": "DRAW",
+          "clue": "To make a picture with a pencil"
+        },
+        {
+          "word": "READ",
+          "clue": "To look at words and understand them"
+        },
+        {
+          "word": "RULER",
+          "clue": "Used to draw straight lines and measure"
+        },
+        {
+          "word": "CLASS",
+          "clue": "A group of pupils with a teacher"
+        },
+        {
+          "word": "PAINT",
+          "clue": "Coloured liquid used to make pictures"
+        },
+        {
+          "word": "PENCIL",
+          "clue": "You write or draw with this"
+        },
+        {
+          "word": "RUBBER",
+          "clue": "Removes pencil marks"
+        },
+        {
+          "word": "LESSON",
+          "clue": "A time when you learn something"
+        },
+        {
+          "word": "CRAYON",
+          "clue": "Coloured wax stick for drawing"
+        },
+        {
+          "word": "FOLDER",
+          "clue": "Holds your papers together"
+        },
+        {
+          "word": "SCISSORS",
+          "clue": "Used to cut paper"
+        },
+        {
+          "word": "TEACHER",
+          "clue": "Person who helps you learn"
+        },
+        {
+          "word": "LIBRARY",
+          "clue": "Room full of books to borrow"
+        },
+        {
+          "word": "SUBJECT",
+          "clue": "Topic you study, like maths or science"
+        },
+        {
+          "word": "HOMEWORK",
+          "clue": "School work you do at home"
+        },
+        {
+          "word": "REGISTER",
+          "clue": "List the teacher reads to check who is in"
+        },
+        {
+          "word": "ASSEMBLY",
+          "clue": "When the whole school meets together"
+        },
+        {
+          "word": "CLASSROOM",
+          "clue": "Room where you have lessons"
+        },
+        {
+          "word": "TIMETABLE",
+          "clue": "Shows when each lesson happens"
+        },
+        {
+          "word": "WHITEBOARD",
+          "clue": "Large white surface the teacher writes on"
+        },
+        {
+          "word": "CALCULATOR",
+          "clue": "Device that does sums for you"
+        },
+        {
+          "word": "COMPASS",
+          "clue": "Tool for drawing circles"
+        },
+        {
+          "word": "LUNCHBOX",
+          "clue": "Box you bring food to school in"
+        },
+        {
+          "word": "UNIFORM",
+          "clue": "Special clothes worn at school"
+        },
+        {
+          "word": "PLAYGROUND",
+          "clue": "Outside area where you play at break time"
+        }
+      ]
+    },
+    "colours": {
+      "label": "Colours",
+      "words": [
+        {
+          "word": "RED",
+          "clue": "Colour of a fire engine"
+        },
+        {
+          "word": "BLUE",
+          "clue": "Colour of the sky"
+        },
+        {
+          "word": "PINK",
+          "clue": "Light red, colour of flamingos"
+        },
+        {
+          "word": "GOLD",
+          "clue": "Shiny yellow colour of medals"
+        },
+        {
+          "word": "GREY",
+          "clue": "Colour of clouds on a rainy day"
+        },
+        {
+          "word": "LIME",
+          "clue": "Bright yellow-green colour"
+        },
+        {
+          "word": "TEAL",
+          "clue": "Blue-green colour"
+        },
+        {
+          "word": "CYAN",
+          "clue": "Bright blue-green colour"
+        },
+        {
+          "word": "JADE",
+          "clue": "Dark green colour"
+        },
+        {
+          "word": "TAN",
+          "clue": "Light brown colour"
+        },
+        {
+          "word": "GREEN",
+          "clue": "Colour of grass and leaves"
+        },
+        {
+          "word": "BLACK",
+          "clue": "The darkest colour"
+        },
+        {
+          "word": "WHITE",
+          "clue": "The lightest colour"
+        },
+        {
+          "word": "BROWN",
+          "clue": "Colour of chocolate and soil"
+        },
+        {
+          "word": "ORANGE",
+          "clue": "Colour between red and yellow"
+        },
+        {
+          "word": "PURPLE",
+          "clue": "Mix of red and blue"
+        },
+        {
+          "word": "YELLOW",
+          "clue": "Colour of the sun"
+        },
+        {
+          "word": "SILVER",
+          "clue": "Shiny grey colour"
+        },
+        {
+          "word": "INDIGO",
+          "clue": "Dark blue-purple, part of the rainbow"
+        },
+        {
+          "word": "VIOLET",
+          "clue": "Light purple, last colour of the rainbow"
+        },
+        {
+          "word": "CRIMSON",
+          "clue": "Deep dark red colour"
+        },
+        {
+          "word": "SCARLET",
+          "clue": "Bright red colour"
+        },
+        {
+          "word": "MAROON",
+          "clue": "Dark brownish-red colour"
+        },
+        {
+          "word": "CREAM",
+          "clue": "Very pale yellow, like milk"
+        },
+        {
+          "word": "TURQUOISE",
+          "clue": "Bright blue-green colour"
+        },
+        {
+          "word": "MAGENTA",
+          "clue": "Bright pink-purple colour"
+        }
+      ]
+    },
+    "numbers_and_shapes": {
+      "label": "Numbers & shapes",
+      "words": [
+        {
+          "word": "ONE",
+          "clue": "Number 1"
+        },
+        {
+          "word": "TWO",
+          "clue": "Number 2"
+        },
+        {
+          "word": "TEN",
+          "clue": "Number 10"
+        },
+        {
+          "word": "SIX",
+          "clue": "Number 6"
+        },
+        {
+          "word": "ODD",
+          "clue": "Cannot be divided equally by 2"
+        },
+        {
+          "word": "EVEN",
+          "clue": "Can be divided equally by 2"
+        },
+        {
+          "word": "FOUR",
+          "clue": "Number 4"
+        },
+        {
+          "word": "FIVE",
+          "clue": "Number 5"
+        },
+        {
+          "word": "NINE",
+          "clue": "Number 9"
+        },
+        {
+          "word": "ZERO",
+          "clue": "Nothing, the number 0"
+        },
+        {
+          "word": "HALF",
+          "clue": "One part when you split something equally in two"
+        },
+        {
+          "word": "PLUS",
+          "clue": "Adding sign +"
+        },
+        {
+          "word": "OVAL",
+          "clue": "Egg-shaped flat shape"
+        },
+        {
+          "word": "CUBE",
+          "clue": "3D shape with six square faces"
+        },
+        {
+          "word": "CONE",
+          "clue": "Ice cream shape, pointy at the top"
+        },
+        {
+          "word": "LINE",
+          "clue": "Straight mark connecting two points"
+        },
+        {
+          "word": "SEVEN",
+          "clue": "Number 7"
+        },
+        {
+          "word": "EIGHT",
+          "clue": "Number 8"
+        },
+        {
+          "word": "THREE",
+          "clue": "Number 3"
+        },
+        {
+          "word": "DOZEN",
+          "clue": "Twelve of something"
+        },
+        {
+          "word": "CIRCLE",
+          "clue": "Perfectly round flat shape"
+        },
+        {
+          "word": "SQUARE",
+          "clue": "Four equal sides, four right angles"
+        },
+        {
+          "word": "SPHERE",
+          "clue": "3D ball shape"
+        },
+        {
+          "word": "TRIANGLE",
+          "clue": "Flat shape with three sides"
+        },
+        {
+          "word": "RECTANGLE",
+          "clue": "Four sides, two long and two short"
+        },
+        {
+          "word": "PENTAGON",
+          "clue": "Flat shape with five sides"
+        },
+        {
+          "word": "HEXAGON",
+          "clue": "Flat shape with six sides"
+        },
+        {
+          "word": "OCTAGON",
+          "clue": "Flat shape with eight sides"
+        },
+        {
+          "word": "CYLINDER",
+          "clue": "3D shape like a tin can"
+        },
+        {
+          "word": "PYRAMID",
+          "clue": "3D shape with a square base and triangular sides"
+        }
+      ]
+    },
+    "family_and_people": {
+      "label": "Family & people",
+      "words": [
+        {
+          "word": "MUM",
+          "clue": "Female parent"
+        },
+        {
+          "word": "DAD",
+          "clue": "Male parent"
+        },
+        {
+          "word": "SON",
+          "clue": "A male child"
+        },
+        {
+          "word": "NAN",
+          "clue": "Grandmother, informal"
+        },
+        {
+          "word": "AUNT",
+          "clue": "Your parent's sister"
+        },
+        {
+          "word": "BABY",
+          "clue": "Very young child"
+        },
+        {
+          "word": "TWIN",
+          "clue": "One of two children born at the same time"
+        },
+        {
+          "word": "GIRL",
+          "clue": "Female child"
+        },
+        {
+          "word": "WIFE",
+          "clue": "Married woman"
+        },
+        {
+          "word": "SISTER",
+          "clue": "A girl who shares your parents"
+        },
+        {
+          "word": "MOTHER",
+          "clue": "Female parent, more formal"
+        },
+        {
+          "word": "FATHER",
+          "clue": "Male parent, more formal"
+        },
+        {
+          "word": "COUSIN",
+          "clue": "Child of your aunt or uncle"
+        },
+        {
+          "word": "NEPHEW",
+          "clue": "Brother's or sister's son"
+        },
+        {
+          "word": "NIECE",
+          "clue": "Brother's or sister's daughter"
+        },
+        {
+          "word": "FRIEND",
+          "clue": "Someone you like and play with"
+        },
+        {
+          "word": "FAMILY",
+          "clue": "Parents, children and relatives together"
+        },
+        {
+          "word": "GRANNY",
+          "clue": "Grandmother"
+        },
+        {
+          "word": "BROTHER",
+          "clue": "A boy who shares your parents"
+        },
+        {
+          "word": "GRANDAD",
+          "clue": "Grandfather"
+        },
+        {
+          "word": "TEACHER",
+          "clue": "Person who teaches you at school"
+        },
+        {
+          "word": "DOCTOR",
+          "clue": "Person who helps you when you are ill"
+        },
+        {
+          "word": "NURSE",
+          "clue": "Person who looks after ill people in hospital"
+        },
+        {
+          "word": "FARMER",
+          "clue": "Person who grows crops and keeps animals"
+        },
+        {
+          "word": "FIREFIGHTER",
+          "clue": "Person who puts out fires"
+        },
+        {
+          "word": "NEIGHBOUR",
+          "clue": "Person who lives next door or nearby"
+        }
+      ]
+    },
+    "clothes": {
+      "label": "Clothes",
+      "words": [
+        {
+          "word": "CAP",
+          "clue": "Flat hat with a brim"
+        },
+        {
+          "word": "TIE",
+          "clue": "Long piece of fabric worn around the neck"
+        },
+        {
+          "word": "HAT",
+          "clue": "Worn on your head"
+        },
+        {
+          "word": "VEST",
+          "clue": "Sleeveless top worn under a shirt"
+        },
+        {
+          "word": "COAT",
+          "clue": "Warm outer clothing"
+        },
+        {
+          "word": "BOOT",
+          "clue": "Covers your foot and lower leg"
+        },
+        {
+          "word": "SOCK",
+          "clue": "Worn on your foot inside a shoe"
+        },
+        {
+          "word": "BELT",
+          "clue": "Holds your trousers up"
+        },
+        {
+          "word": "HOOD",
+          "clue": "Part of a coat that covers your head"
+        },
+        {
+          "word": "JEANS",
+          "clue": "Trousers made from denim"
+        },
+        {
+          "word": "SKIRT",
+          "clue": "Hangs from the waist"
+        },
+        {
+          "word": "SHIRT",
+          "clue": "Top with buttons and a collar"
+        },
+        {
+          "word": "SCARF",
+          "clue": "Worn around your neck to keep warm"
+        },
+        {
+          "word": "GLOVE",
+          "clue": "Covers your hand, keeps it warm"
+        },
+        {
+          "word": "SHOES",
+          "clue": "Worn on feet outside"
+        },
+        {
+          "word": "SHORTS",
+          "clue": "Short trousers worn in warm weather"
+        },
+        {
+          "word": "JUMPER",
+          "clue": "Warm knitted top you pull over your head"
+        },
+        {
+          "word": "DRESS",
+          "clue": "One-piece clothing worn by girls or women"
+        },
+        {
+          "word": "JACKET",
+          "clue": "Short coat"
+        },
+        {
+          "word": "APRON",
+          "clue": "Worn over clothes to keep them clean when cooking"
+        },
+        {
+          "word": "SANDAL",
+          "clue": "Open shoe worn in summer"
+        },
+        {
+          "word": "MITTEN",
+          "clue": "Glove without separate fingers"
+        },
+        {
+          "word": "PYJAMAS",
+          "clue": "Loose clothes worn in bed"
+        },
+        {
+          "word": "CARDIGAN",
+          "clue": "Knitted jacket that buttons up the front"
+        },
+        {
+          "word": "SWIMSUIT",
+          "clue": "Worn in the swimming pool"
+        },
+        {
+          "word": "RAINCOAT",
+          "clue": "Waterproof coat worn in the rain"
+        },
+        {
+          "word": "TRAINERS",
+          "clue": "Sports shoes with rubber soles"
+        },
+        {
+          "word": "TROUSERS",
+          "clue": "Clothing covering each leg separately"
+        },
+        {
+          "word": "WELLINGTON",
+          "clue": "Tall rubber boot for muddy weather"
+        }
+      ]
+    },
+    "home_and_rooms": {
+      "label": "Home & rooms",
+      "words": [
+        {
+          "word": "BED",
+          "clue": "You sleep in this"
+        },
+        {
+          "word": "RUG",
+          "clue": "Small carpet on the floor"
+        },
+        {
+          "word": "TAP",
+          "clue": "Turns on water at the sink"
+        },
+        {
+          "word": "SOFA",
+          "clue": "Comfortable seat for several people"
+        },
+        {
+          "word": "DOOR",
+          "clue": "Opens and closes to enter a room"
+        },
+        {
+          "word": "WALL",
+          "clue": "Vertical side of a room"
+        },
+        {
+          "word": "ROOF",
+          "clue": "Top covering of a building"
+        },
+        {
+          "word": "LOFT",
+          "clue": "Room or space in the roof"
+        },
+        {
+          "word": "BATH",
+          "clue": "Large tub you fill with water to wash"
+        },
+        {
+          "word": "SINK",
+          "clue": "Bowl for washing hands or dishes"
+        },
+        {
+          "word": "OVEN",
+          "clue": "Cooks food using heat"
+        },
+        {
+          "word": "TABLE",
+          "clue": "You eat meals at this"
+        },
+        {
+          "word": "CHAIR",
+          "clue": "You sit on this"
+        },
+        {
+          "word": "SHELF",
+          "clue": "Flat board fixed to a wall for storing things"
+        },
+        {
+          "word": "LAMP",
+          "clue": "Gives light in a room"
+        },
+        {
+          "word": "CLOCK",
+          "clue": "Tells you the time"
+        },
+        {
+          "word": "STAIRS",
+          "clue": "Steps between floors of a house"
+        },
+        {
+          "word": "WINDOW",
+          "clue": "Glass opening that lets in light"
+        },
+        {
+          "word": "GARDEN",
+          "clue": "Green outdoor space at a house"
+        },
+        {
+          "word": "KITCHEN",
+          "clue": "Room where food is cooked"
+        },
+        {
+          "word": "BEDROOM",
+          "clue": "Room where you sleep"
+        },
+        {
+          "word": "BATHROOM",
+          "clue": "Room with a bath, shower and toilet"
+        },
+        {
+          "word": "HALLWAY",
+          "clue": "Passage inside the front door"
+        },
+        {
+          "word": "CHIMNEY",
+          "clue": "Tall pipe above a fireplace"
+        },
+        {
+          "word": "CURTAIN",
+          "clue": "Hangs over a window to block light"
+        },
+        {
+          "word": "PILLOW",
+          "clue": "Soft cushion you rest your head on in bed"
+        },
+        {
+          "word": "BLANKET",
+          "clue": "Warm covering for your bed"
+        },
+        {
+          "word": "FIREPLACE",
+          "clue": "Opening in a wall where a fire burns"
+        },
+        {
+          "word": "BOOKSHELF",
+          "clue": "Shelves for keeping books"
+        },
+        {
+          "word": "FRIDGE",
+          "clue": "Keeps food cold"
+        }
+      ]
+    },
+    "sports_and_games": {
+      "label": "Sports & games",
+      "words": [
+        {
+          "word": "RUN",
+          "clue": "Move fast on your feet"
+        },
+        {
+          "word": "SWIM",
+          "clue": "Move through water using your body"
+        },
+        {
+          "word": "JUMP",
+          "clue": "Push off the ground into the air"
+        },
+        {
+          "word": "KICK",
+          "clue": "Hit something with your foot"
+        },
+        {
+          "word": "GOLF",
+          "clue": "Hit a small ball into a hole with a club"
+        },
+        {
+          "word": "YOGA",
+          "clue": "Stretching and balancing exercises"
+        },
+        {
+          "word": "RACE",
+          "clue": "Compete to see who is fastest"
+        },
+        {
+          "word": "BALL",
+          "clue": "Round object you throw or kick"
+        },
+        {
+          "word": "GOAL",
+          "clue": "Scored when the ball goes in the net"
+        },
+        {
+          "word": "TEAM",
+          "clue": "Group of players working together"
+        },
+        {
+          "word": "SPORT",
+          "clue": "Physical activity with rules"
+        },
+        {
+          "word": "RUGBY",
+          "clue": "Sport where you carry an oval ball"
+        },
+        {
+          "word": "CHESS",
+          "clue": "Board game with kings, queens and pawns"
+        },
+        {
+          "word": "TENNIS",
+          "clue": "Hit a ball over a net with a racket"
+        },
+        {
+          "word": "HOCKEY",
+          "clue": "Use a stick to hit a ball or puck"
+        },
+        {
+          "word": "BOXING",
+          "clue": "Sport where you punch with gloves on"
+        },
+        {
+          "word": "DIVING",
+          "clue": "Jumping into water from a board"
+        },
+        {
+          "word": "ROWING",
+          "clue": "Moving a boat using oars"
+        },
+        {
+          "word": "CRICKET",
+          "clue": "Hit a ball with a flat bat, played on grass"
+        },
+        {
+          "word": "NETBALL",
+          "clue": "Throw a ball through a high ring"
+        },
+        {
+          "word": "FOOTBALL",
+          "clue": "Kick a round ball into a goal"
+        },
+        {
+          "word": "SWIMMING",
+          "clue": "Moving through water as a sport"
+        },
+        {
+          "word": "CYCLING",
+          "clue": "Riding a bicycle"
+        },
+        {
+          "word": "ARCHERY",
+          "clue": "Shoot arrows at a target"
+        },
+        {
+          "word": "KARATE",
+          "clue": "Martial art using kicks and punches"
+        },
+        {
+          "word": "ATHLETICS",
+          "clue": "Running, jumping and throwing sports"
+        },
+        {
+          "word": "GYMNASTICS",
+          "clue": "Flipping, balancing and tumbling sport"
+        },
+        {
+          "word": "BADMINTON",
+          "clue": "Hit a shuttlecock over a net with a racket"
+        },
+        {
+          "word": "SKATEBOARD",
+          "clue": "Ride a flat board on four wheels"
+        },
+        {
+          "word": "BASKETBALL",
+          "clue": "Throw a ball through a high basket"
+        }
+      ]
+    },
+    "everyday_vocab": {
+      "label": "Everyday vocab",
+      "words": [
+        {
+          "word": "BIG",
+          "clue": "Large in size"
+        },
+        {
+          "word": "OLD",
+          "clue": "Has existed for a long time"
+        },
+        {
+          "word": "NEW",
+          "clue": "Just made or bought"
+        },
+        {
+          "word": "HOT",
+          "clue": "Very warm"
+        },
+        {
+          "word": "WET",
+          "clue": "Covered in liquid"
+        },
+        {
+          "word": "DRY",
+          "clue": "Not wet"
+        },
+        {
+          "word": "RAW",
+          "clue": "Not cooked"
+        },
+        {
+          "word": "SHY",
+          "clue": "Nervous around other people"
+        },
+        {
+          "word": "FAST",
+          "clue": "Moving quickly"
+        },
+        {
+          "word": "SLOW",
+          "clue": "Not moving quickly"
+        },
+        {
+          "word": "HARD",
+          "clue": "Not soft, or difficult"
+        },
+        {
+          "word": "SOFT",
+          "clue": "Gentle to touch"
+        },
+        {
+          "word": "LOUD",
+          "clue": "Making a lot of noise"
+        },
+        {
+          "word": "DARK",
+          "clue": "Without much light"
+        },
+        {
+          "word": "COLD",
+          "clue": "Not warm"
+        },
+        {
+          "word": "WARM",
+          "clue": "A little bit hot"
+        },
+        {
+          "word": "TALL",
+          "clue": "High from top to bottom"
+        },
+        {
+          "word": "KIND",
+          "clue": "Being nice and caring to others"
+        },
+        {
+          "word": "BOLD",
+          "clue": "Brave, not afraid"
+        },
+        {
+          "word": "TINY",
+          "clue": "Very very small"
+        },
+        {
+          "word": "HUGE",
+          "clue": "Very very large"
+        },
+        {
+          "word": "CALM",
+          "clue": "Peaceful, not worried"
+        },
+        {
+          "word": "WILD",
+          "clue": "Not tamed, found in nature"
+        },
+        {
+          "word": "NEAT",
+          "clue": "Tidy and orderly"
+        },
+        {
+          "word": "RUDE",
+          "clue": "Not polite"
+        },
+        {
+          "word": "PALE",
+          "clue": "Light in colour, not very bright"
+        },
+        {
+          "word": "HAPPY",
+          "clue": "Feeling glad"
+        },
+        {
+          "word": "ANGRY",
+          "clue": "Feeling cross"
+        },
+        {
+          "word": "CLEAN",
+          "clue": "Not dirty"
+        },
+        {
+          "word": "DIRTY",
+          "clue": "Not clean"
+        },
+        {
+          "word": "BRAVE",
+          "clue": "Not scared, facing danger calmly"
+        },
+        {
+          "word": "SMART",
+          "clue": "Clever or neatly dressed"
+        },
+        {
+          "word": "QUIET",
+          "clue": "Not making noise"
+        },
+        {
+          "word": "SILLY",
+          "clue": "Funny and not serious"
+        },
+        {
+          "word": "TIRED",
+          "clue": "Needing sleep or rest"
+        },
+        {
+          "word": "PROUD",
+          "clue": "Pleased with yourself or others"
+        },
+        {
+          "word": "SHARP",
+          "clue": "Has a fine edge or point"
+        },
+        {
+          "word": "EMPTY",
+          "clue": "Nothing inside"
+        },
+        {
+          "word": "HEAVY",
+          "clue": "Weighs a lot"
+        },
+        {
+          "word": "LIGHT",
+          "clue": "Does not weigh much"
+        },
+        {
+          "word": "ROUGH",
+          "clue": "Not smooth, bumpy to touch"
+        },
+        {
+          "word": "SMOOTH",
+          "clue": "Flat and even, not rough"
+        },
+        {
+          "word": "BRIGHT",
+          "clue": "Full of light, or very clever"
+        },
+        {
+          "word": "GENTLE",
+          "clue": "Careful and soft, not rough"
+        },
+        {
+          "word": "HONEST",
+          "clue": "Always tells the truth"
+        },
+        {
+          "word": "CAREFUL",
+          "clue": "Pays attention and avoids mistakes"
+        },
+        {
+          "word": "HEALTHY",
+          "clue": "Good for your body"
+        },
+        {
+          "word": "PATIENT",
+          "clue": "Happy to wait without complaining"
+        },
+        {
+          "word": "POLITE",
+          "clue": "Has good manners"
+        }
+      ]
+    }
+  }
+}

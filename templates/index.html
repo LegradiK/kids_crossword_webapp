@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KS1 Crossword</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+  <h1>🔤 KS1 Crossword</h1>
+  <p>Choose a topic and solve the puzzle!</p>
+</header>
+
+<div class="controls">
+  <select id="topic-sel">
+    {% for t in topics %}
+    <option value="{{ t }}">{{ t }}</option>
+    {% endfor %}
+  </select>
+  <button class="btn btn-new"    onclick="loadPuzzle()">🎲 New puzzle</button>
+  <button class="btn btn-check"  onclick="checkAll()">✅ Check</button>
+  <button class="btn btn-reveal" onclick="revealAll()">👁 Reveal</button>
+  <button class="btn btn-clear"  onclick="clearAll()">🗑 Clear</button>
+</div>
+
+<div class="score-bar">
+  <div class="sc"><div class="sc-val" id="sc-solved">0</div><div class="sc-lbl">solved</div></div>
+  <div class="sc"><div class="sc-val" id="sc-words">0</div><div class="sc-lbl">words</div></div>
+  <div class="sc"><div class="sc-val" id="sc-checks">0</div><div class="sc-lbl">checks</div></div>
+</div>
+
+<div id="win-banner" class="win-banner">
+  <h2>⭐ Well done! ⭐</h2>
+  <p id="win-msg"></p>
+</div>
+
+<div id="loading">Loading puzzle…</div>
+
+<div class="main" id="main" style="display:none">
+  <div class="clues-panel" id="clues"></div>
+  <div class="grid-wrap">
+    <table id="cw"></table>
+  </div>  
+</div>
+
+<script>
+let puzzle = null;
+let activeKey = null;
+let checks = 0;
+let solved = new Set();
+
+async function loadPuzzle() {
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('main').style.display = 'none';
+  document.getElementById('win-banner').style.display = 'none';
+  solved.clear(); checks = 0;
+  updateScore(0, 0);
+
+  const topic = document.getElementById('topic-sel').value;
+  const res = await fetch(`/api/puzzle?topic=${encodeURIComponent(topic)}`);
+  puzzle = await res.json();
+
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('main').style.display = 'flex';
+  document.getElementById('sc-words').textContent = puzzle.across.length + puzzle.down.length;
+  renderGrid();
+  renderClues();
+}
+
+function renderGrid() {
+  const tbl = document.getElementById('cw');
+  tbl.innerHTML = '';
+  const cellMap = {};
+  puzzle.cells.forEach(cell => { cellMap[`${cell.r},${cell.c}`] = cell; });
+  const numMap = {};
+  [...puzzle.across, ...puzzle.down].forEach(cl => { numMap[`${cl.row},${cl.col}`] = cl.num; });
+
+  for (let r = 0; r < puzzle.rows; r++) {
+    const tr = document.createElement('tr');
+    for (let c = 0; c < puzzle.cols; c++) {
+      const td = document.createElement('td');
+      const cell = cellMap[`${r},${c}`];
+      if (!cell || cell.empty) {
+        td.classList.add('black');
+      } else {
+        td.id = `td-${r}-${c}`;
+        const n = numMap[`${r},${c}`];
+        if (n) {
+          const sp = document.createElement('span');
+          sp.className = 'cnum'; sp.textContent = n;
+          td.appendChild(sp);
+        }
+        const inp = document.createElement('input');
+        inp.className = 'cinp';
+        inp.maxLength = 1;
+        inp.dataset.r = r; inp.dataset.c = c;
+        inp.addEventListener('mousedown', e => { e.preventDefault(); onCellClick(r, c, inp); });
+        inp.addEventListener('keydown', e => onKey(e, r, c, inp));
+        td.appendChild(inp);
+      }
+      tr.appendChild(td);
+    }
+    tbl.appendChild(tr);
+  }
+}
+
+function getInp(r, c) { return document.querySelector(`.cinp[data-r="${r}"][data-c="${c}"]`); }
+function getTd(r, c)  { return document.getElementById(`td-${r}-${c}`); }
+
+function onCellClick(r, c, inp) {
+  const hits = getCluesForCell(r, c);
+  if (!hits.length) return;
+  const cur = activeKey ? getClueByKey(activeKey) : null;
+  let target = hits[0];
+  if (cur && hits.find(h => clueKey(h) === activeKey)) {
+    const other = hits.find(h => clueKey(h) !== activeKey);
+    if (other) target = other;
+  }
+  selectClue(clueKey(target));
+  inp.focus();
+}
+
+function onKey(e, r, c, inp) {
+  if (e.key === 'Backspace') {
+    if (inp.value) { inp.value = ''; } else { moveCursor(r, c, -1); }
+    e.preventDefault(); return;
+  }
+  if (['ArrowRight','ArrowLeft','ArrowUp','ArrowDown'].includes(e.key)) {
+    const m = {ArrowRight:[0,1],ArrowLeft:[0,-1],ArrowUp:[-1,0],ArrowDown:[1,0]};
+    const [dr,dc] = m[e.key]; getInp(r+dr, c+dc)?.focus();
+    e.preventDefault(); return;
+  }
+  if (/^[a-zA-Z]$/.test(e.key)) {
+    inp.value = e.key.toUpperCase();
+    moveCursor(r, c, 1);
+    e.preventDefault();
+  }
+}
+
+function moveCursor(r, c, delta) {
+  if (!activeKey) return;
+  const cl = getClueByKey(activeKey);
+  if (!cl) return;
+  const dr = cl.dir==='D' ? 1 : 0, dc = cl.dir==='A' ? 1 : 0;
+  let idx = -1;
+  for (let i = 0; i < cl.length; i++) {
+    if (cl.row+dr*i===r && cl.col+dc*i===c) { idx=i; break; }
+  }
+  const ni = idx + delta;
+  if (ni >= 0 && ni < cl.length) getInp(cl.row+dr*ni, cl.col+dc*ni)?.focus();
+}
+
+function clueKey(cl) { return `${cl.num}${cl.dir}`; }
+
+function getClueByKey(key) {
+  const num = parseInt(key), dir = key.slice(-1);
+  return [...puzzle.across, ...puzzle.down].find(cl => cl.num===num && cl.dir===dir);
+}
+
+function getCluesForCell(r, c) {
+  return [...puzzle.across, ...puzzle.down].filter(cl => {
+    const dr = cl.dir==='D' ? 1 : 0, dc = cl.dir==='A' ? 1 : 0;
+    for (let i = 0; i < cl.length; i++) {
+      if (cl.row+dr*i===r && cl.col+dc*i===c) return true;
+    }
+    return false;
+  });
+}
+
+function selectClue(key) {
+  if (activeKey) {
+    const old = getClueByKey(activeKey);
+    if (old) clearHi(old);
+    document.getElementById(`clue-${activeKey}`)?.classList.remove('active');
+  }
+  activeKey = key;
+  const cl = getClueByKey(key);
+  if (!cl) return;
+  highlightWord(cl);
+  const el = document.getElementById(`clue-${key}`);
+  if (el) { el.classList.add('active'); el.scrollIntoView({block:'nearest'}); }
+  getInp(cl.row, cl.col)?.focus();
+}
+
+function clearHi(cl) {
+  const dr=cl.dir==='D'?1:0, dc=cl.dir==='A'?1:0;
+  for (let i=0;i<cl.length;i++) getTd(cl.row+dr*i,cl.col+dc*i)?.classList.remove('hi');
+}
+
+function highlightWord(cl) {
+  document.querySelectorAll('table#cw td:not(.black)').forEach(td=>td.classList.remove('hi'));
+  const dr=cl.dir==='D'?1:0, dc=cl.dir==='A'?1:0;
+  for (let i=0;i<cl.length;i++) {
+    const td=getTd(cl.row+dr*i,cl.col+dc*i);
+    if(td && !td.classList.contains('ok') && !td.classList.contains('err')) td.classList.add('hi');
+  }
+}
+
+function renderClues() {
+  const panel = document.getElementById('clues');
+  panel.innerHTML = '';
+  [['Across', puzzle.across], ['Down', puzzle.down]].forEach(([label, list]) => {
+    const col = document.createElement('div');
+    col.className = 'clues-col';
+    const t = document.createElement('div');
+    t.className = 'clue-section-title'; t.textContent = label;
+    col.appendChild(t);
+    list.forEach(cl => {
+      const key = clueKey(cl);
+      const d = document.createElement('div');
+      d.className = 'clue-item'; d.id = `clue-${key}`;
+      d.innerHTML = `<span class="clue-num">${cl.num}</span>
+        <div class="clue-body">
+          <div class="clue-txt">${cl.clue}</div>
+          <div class="clue-len">${cl.length} letters</div>
+        </div>`;
+      d.onclick = () => selectClue(key);
+      col.appendChild(d);
+    });
+    panel.appendChild(col);
+  });
+}
+
+
+function checkAll() {
+  checks++;
+  document.getElementById('sc-checks').textContent = checks;
+  [...puzzle.across, ...puzzle.down].forEach(cl => {
+    const dr=cl.dir==='D'?1:0, dc=cl.dir==='A'?1:0;
+    let wordOk = true;
+    for (let i=0;i<cl.length;i++) {
+      const inp=getInp(cl.row+dr*i,cl.col+dc*i);
+      const td=getTd(cl.row+dr*i,cl.col+dc*i);
+      if(!inp||!td) continue;
+      const correct = inp.value.toUpperCase() === cl.word[i];
+      if (inp.value) {
+        td.classList.remove('hi','ok','err');
+        td.classList.add(correct ? 'ok' : 'err');
+      }
+      if (!correct) wordOk = false;
+    }
+    const key = clueKey(cl);
+    if (wordOk) {
+      document.getElementById(`clue-${key}`)?.classList.add('done');
+      solved.add(key);
+    }
+  });
+  updateScore(solved.size, puzzle.across.length + puzzle.down.length);
+  if (solved.size === puzzle.across.length + puzzle.down.length) showWin();
+}
+
+function revealAll() {
+  [...puzzle.across, ...puzzle.down].forEach(cl => {
+    const dr=cl.dir==='D'?1:0, dc=cl.dir==='A'?1:0;
+    for (let i=0;i<cl.length;i++) {
+      const inp=getInp(cl.row+dr*i,cl.col+dc*i);
+      const td=getTd(cl.row+dr*i,cl.col+dc*i);
+      if(inp) inp.value=cl.word[i];
+      if(td){td.classList.remove('hi','err');td.classList.add('ok');}
+    }
+    document.getElementById(`clue-${clueKey(cl)}`)?.classList.add('done');
+    solved.add(clueKey(cl));
+  });
+  updateScore(solved.size, puzzle.across.length+puzzle.down.length);
+  showWin();
+}
+
+function clearAll() {
+  document.querySelectorAll('.cinp').forEach(i=>i.value='');
+  document.querySelectorAll('table#cw td:not(.black)').forEach(td=>td.classList.remove('hi','ok','err'));
+  document.querySelectorAll('.clue-item').forEach(c=>c.classList.remove('active','done'));
+  solved.clear(); activeKey=null; checks=0;
+  updateScore(0, puzzle.across.length+puzzle.down.length);
+  document.getElementById('win-banner').style.display='none';
+}
+
+function updateScore(s, total) {
+  document.getElementById('sc-solved').textContent = s;
+  document.getElementById('sc-words').textContent  = total;
+  document.getElementById('sc-checks').textContent = checks;
+}
+
+function showWin() {
+  const banner = document.getElementById('win-banner');
+  document.getElementById('win-msg').textContent =
+    `You solved all ${solved.size} words in ${checks} check${checks!==1?'s':''}!`;
+  banner.style.display = 'block';
+  banner.scrollIntoView({behavior:'smooth', block:'center'});
+}
+
+document.getElementById('topic-sel').addEventListener('change', loadPuzzle);
+loadPuzzle();
+</script>
+</body>
+</html>
